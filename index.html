@@ -1,123 +1,192 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Leaflet OSM Bars with Heatmap</title>
+  <title>Leaflet Amenities Map</title>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <!-- Leaflet CSS -->
   <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+  <!-- Grouped Layer Control CSS -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet-groupedlayercontrol/dist/leaflet.groupedlayercontrol.min.css" />
+
   <style>
-    #map { height: 600px; }
+    #map { height: 100vh; }
+    .info-box {
+      position: absolute;
+      bottom: 10px;
+      right: 10px;
+      background: white;
+      padding: 10px;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.3);
+      font-size: 14px;
+      max-height: 200px;
+      overflow-y: auto;
+      z-index: 999;
+    }
+    .info-box b {
+      display: inline-block;
+      width: 100px;
+    }
   </style>
 </head>
 <body>
 
 <div id="map"></div>
+<div class="info-box" id="summaryBox">Loading summary...</div>
 
 <!-- Leaflet JS -->
 <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
-
-<!-- Leaflet.heat plugin -->
+<!-- Leaflet Heatmap -->
 <script src="https://unpkg.com/leaflet.heat/dist/leaflet-heat.js"></script>
+<!-- Grouped Layer Control -->
+<script src="https://unpkg.com/leaflet-groupedlayercontrol/dist/leaflet.groupedlayercontrol.min.js"></script>
 
 <script>
-  // Initialize map
+
   const map = L.map('map').setView([25.105497, 121.597366], 13);
 
-  // Base tile layer
   const baseLayer = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
     attribution: '© OpenStreetMap contributors'
   }).addTo(map);
 
-  // Overlay layer containers
-  let markerLayer = null;
-  let heatLayer = null;
+  const colors = {};
+  const colorList = ['red', 'blue', 'green', 'orange', 'purple', 'darkred', 'cadetblue'];
+  let colorIndex = 0;
 
-  // Load GeoJSON data
-  fetch('data/bars.geojson')
+  const groupedOverlays = {
+    "Markers": {},
+    "Heatmaps": {}
+  };
+
+  const summaryCounts = {};
+  const allLatLngs = [];
+  const allHeatPoints = [];
+
+  fetch('data/all.geojson')
     .then(response => response.json())
     .then(geojsonData => {
-      // 1. Create marker layer
-      markerLayer = L.geoJSON(geojsonData, {
-        pointToLayer: function(feature, latlng) {
-          return L.marker(latlng);
-        },
-onEachFeature: function(feature, layer) {
-  const props = feature.properties;
-  let title = 'Unnamed Bar';
-  const fallbackNames = [];
+      const amenityGroups = {};
 
-  // Find the best name
-  if (props) {
-    if (props['name:en']) {
-      title = props['name:en'];
-    } else if (props['name']) {
-      title = props['name'];
-    } else if (props['name:zh']) {
-      title = props['name:zh'];
-    } else {
-      // Search for any other name:* key
-      for (let key in props) {
-        if (key.startsWith('name:')) {
-          fallbackNames.push(props[key]);
+      geojsonData.features.forEach(feature => {
+        const amenity = feature.properties?.amenity || 'unknown';
+        if (!amenityGroups[amenity]) {
+          amenityGroups[amenity] = [];
+        }
+        amenityGroups[amenity].push(feature);
+      });
+
+      for (let amenity in amenityGroups) {
+	  const features = amenityGroups[amenity];
+	  const referenceAmenity = "bar";
+const referenceRadius = 55;
+const referenceBlur = 55;
+const referenceCount = amenityGroups[referenceAmenity]?.length || 100;
+	  const currentCount = features.length;
+
+	  const scaleFactor = Math.sqrt(referenceCount / currentCount);
+// Apply scaling
+let radius = Math.round(referenceRadius * scaleFactor);
+let blur   = Math.round(referenceBlur * scaleFactor);
+
+// Limit values
+radius = Math.max(15, Math.min(radius, 90));  // between 15 and 90
+blur   = Math.max(10, Math.min(blur, 90));    // between 10 and 90
+        if (!colors[amenity]) {
+          colors[amenity] = colorList[colorIndex % colorList.length];
+          colorIndex++;
+        }
+
+        summaryCounts[amenity] = features.length;
+
+        const markerLayer = L.geoJSON(features, {
+          pointToLayer: function (feature, latlng) {
+            allLatLngs.push(latlng);
+            return L.circleMarker(latlng, {
+              radius: 6,
+              color: colors[amenity],
+              fillOpacity: 0.8
+            });
+          },
+          onEachFeature: function (feature, layer) {
+            const props = feature.properties;
+            let title = 'Unnamed';
+            const fallbackNames = [];
+
+            if (props) {
+              if (props['name:en']) title = props['name:en'];
+              else if (props['name']) title = props['name'];
+              else if (props['name:zh']) title = props['name:zh'];
+              else {
+                for (let key in props) {
+                  if (key.startsWith('name:')) fallbackNames.push(props[key]);
+                }
+                if (fallbackNames.length > 0) title = fallbackNames[0];
+              }
+            }
+
+            let popupContent = `<h4>${title}</h4><hr>`;
+            for (let key in props) {
+              if (key !== '@id' && !key.startsWith('name')) {
+                popupContent += `<strong>${key}</strong>: ${props[key]}<br>`;
+              }
+            }
+
+            layer.bindPopup(popupContent);
+          }
+        });
+
+        const heatPoints = features.map(f => {
+          const [lng, lat] = f.geometry.coordinates;
+          allHeatPoints.push([lat, lng, 1]);
+          return [lat, lng, 1];
+        });
+
+  const heatLayer = L.heatLayer(heatPoints, {
+    radius: radius,
+    blur: blur,
+    maxZoom: 17
+  });
+
+        // Add to grouped overlays
+        groupedOverlays["Markers"][`🍻 ${amenity}`] = markerLayer;
+        groupedOverlays["Heatmaps"][`🔥 ${amenity}`] = heatLayer;
+
+        // Only show bar heatmap by default
+        if (amenity === "bar") {
+          heatLayer.addTo(map);
         }
       }
-      if (fallbackNames.length > 0) {
-        title = fallbackNames[0]; // Just pick the first alternative
-      }
-    }
-  }
 
-  // Build popup content
-  let popupContent = `<h4>${title}</h4><hr>`;
-  for (let key in props) {
-    if (
-      key !== '@id' &&
-      !key.startsWith('name')
-    ) {
-      popupContent += `<strong>${key}</strong>: ${props[key]}<br>`;
-    }
-  }
-
-  layer.bindPopup(popupContent);
-}
-      }).addTo(map);
-
-      // 2. Create heatmap layer
-      const heatData = geojsonToHeatArray(geojsonData);
-      heatLayer = L.heatLayer(heatData, {
-        radius: 45,
+      // Global heatmap
+      const globalHeat = L.heatLayer(allHeatPoints, {
+        radius: 67,
         blur: 55,
         maxZoom: 17,
-      }).addTo(map);
+        gradient: { 0.4: 'blue', 0.65: 'lime', 1: 'red' }
+      });
 
-      // 3. Add layer controls (exclude base layer)
-      const overlays = {
-        "Bar Markers": markerLayer,
-        "Bar Heatmap": heatLayer
-      };
-      L.control.layers(null, overlays, { collapsed: false }).addTo(map);
-    })
-    .catch(error => {
-      console.error('Error loading GeoJSON:', error);
-    });
+      groupedOverlays["Heatmaps"]["🌍 All Amenities"] = globalHeat;
 
-  // Convert GeoJSON Points to heatmap [lat, lng, intensity]
-  function geojsonToHeatArray(geojson) {
-    const heatArray = [];
+      // Add control
+      L.control.groupedLayers(null, groupedOverlays, { collapsed: false }).addTo(map);
 
-    geojson.features.forEach(feature => {
-      if (feature.geometry && feature.geometry.type === "Point") {
-        const coords = feature.geometry.coordinates;
-        const lat = coords[1];
-        const lng = coords[0];
-        heatArray.push([lat, lng, 1]); // Replace 1 with custom weight if needed
+      // Fit map view
+      if (allLatLngs.length > 0) {
+        map.fitBounds(L.latLngBounds(allLatLngs));
+      } else {
+        map.setView([25.105497, 121.597366], 13);
       }
-    });
 
-    return heatArray;
-  }
+      // Update summary
+      const summaryBox = document.getElementById('summaryBox');
+      let summaryHTML = '<strong>Location Type Count</strong><br>';
+      for (let type in summaryCounts) {
+        summaryHTML += `<b>${type}</b>: ${summaryCounts[type]}<br>`;
+      }
+      summaryBox.innerHTML = summaryHTML;
+    });
 </script>
 
 </body>
