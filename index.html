@@ -88,7 +88,7 @@ onEachFeature: function(feature, layer) {
       const heatData = geojsonToHeatArray(geojsonData);
       heatLayer = L.heatLayer(heatData, {
         radius: 45,
-        blur: 155,
+        blur: 55,
         maxZoom: 17,
       }).addTo(map);
 
