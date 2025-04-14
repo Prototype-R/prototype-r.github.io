@@ -1,54 +1,124 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>leaflet-map-simple</title>
+  <title>Leaflet OSM Bars with Heatmap</title>
+  <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta charset="utf-8">
 
-  <!-- Load Leaflet code library: see https://leafletjs.com/download.html -->
-  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.2/dist/leaflet.css" integrity="sha256-sA+zWATbFveLLNqWO2gtiw3HL/lh1giY/Inf1BJ0z14=" crossorigin="" />
-  <script src="https://unpkg.com/leaflet@1.9.2/dist/leaflet.js" integrity="sha256-o9N1jGDZrf5tS+Ft4gbIK7mYMipq9lqpVJ91xHSyKhg=" crossorigin=""></script>
-  <script src="http://code.jquery.com/jquery-2.1.1.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet-ajax/2.1.0/leaflet.ajax.min.js"></script>
-
-  <script src="https://unpkg.com/leaflet.heat@0.2.0/dist/leaflet-heat.js"></script>
-
-  <!-- Position the map and title with Cascading Style Sheet (CSS) -->
+  <!-- Leaflet CSS -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
   <style>
-  body { margin:0; padding:0; }
-  #map { position: absolute; top:0; bottom:0; right:0; left:0; }
-  #map-title { position: relative; margin-top: 10px; margin-left: 50px; float: left; background: white; border: 2px solid rgba(0,0,0,0.2); padding: 6px 8px; font-family: Helvetica; font-weight: bold; font-size: 24px; z-index: 800; }
+    #map { height: 600px; }
   </style>
 </head>
 <body>
 
-  <!-- Display the map and title with HTML division tags  -->
-  <div id="map-title">EDIT map title</div>
-  <div id="map"></div>
+<div id="map"></div>
 
-  <!-- Create the interactive map content with JavaScript (.js) -->
-  <script>
+<!-- Leaflet JS -->
+<script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
 
-  /* Set up the initial map center and zoom level */
-  var map = L.map('map', {
-    center: [25.105497, 121.597366], // EDIT coordinates to re-center map
-    zoom: 12,  // EDIT from 1 (zoomed out) to 18 (zoomed in)
-    scrollWheelZoom: false
-  });
-var geojson = new L.GeoJSON.AJAX("data/bar.geojson");
-geojson.on('data:loaded', function(){
-geojson.addTo(mymap);
-});
+<!-- Leaflet.heat plugin -->
+<script src="https://unpkg.com/leaflet.heat/dist/leaflet-heat.js"></script>
 
-  /* display basemap tiles -- see others at https://leaflet-extras.github.io/leaflet-providers/preview/ */
-  L.tileLayer(
-    'https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png', {
-      attribution: '&copy; <a href="https://osm.org/copyright">\
-        OpenStreetMap</a> contributors, &copy;\
-        <a href="https://carto.com/attribution">CARTO</a>'
+<script>
+  // Initialize map
+  const map = L.map('map').setView([25.105497, 121.597366], 13);
+
+  // Base tile layer
+  const baseLayer = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    attribution: '© OpenStreetMap contributors'
   }).addTo(map);
 
+  // Overlay layer containers
+  let markerLayer = null;
+  let heatLayer = null;
 
-  </script>
+  // Load GeoJSON data
+  fetch('data/bars.geojson')
+    .then(response => response.json())
+    .then(geojsonData => {
+      // 1. Create marker layer
+      markerLayer = L.geoJSON(geojsonData, {
+        pointToLayer: function(feature, latlng) {
+          return L.marker(latlng);
+        },
+onEachFeature: function(feature, layer) {
+  const props = feature.properties;
+  let title = 'Unnamed Bar';
+  const fallbackNames = [];
+
+  // Find the best name
+  if (props) {
+    if (props['name:en']) {
+      title = props['name:en'];
+    } else if (props['name']) {
+      title = props['name'];
+    } else if (props['name:zh']) {
+      title = props['name:zh'];
+    } else {
+      // Search for any other name:* key
+      for (let key in props) {
+        if (key.startsWith('name:')) {
+          fallbackNames.push(props[key]);
+        }
+      }
+      if (fallbackNames.length > 0) {
+        title = fallbackNames[0]; // Just pick the first alternative
+      }
+    }
+  }
+
+  // Build popup content
+  let popupContent = `<h4>${title}</h4><hr>`;
+  for (let key in props) {
+    if (
+      key !== '@id' &&
+      !key.startsWith('name')
+    ) {
+      popupContent += `<strong>${key}</strong>: ${props[key]}<br>`;
+    }
+  }
+
+  layer.bindPopup(popupContent);
+}
+      }).addTo(map);
+
+      // 2. Create heatmap layer
+      const heatData = geojsonToHeatArray(geojsonData);
+      heatLayer = L.heatLayer(heatData, {
+        radius: 45,
+        blur: 155,
+        maxZoom: 17,
+      }).addTo(map);
+
+      // 3. Add layer controls (exclude base layer)
+      const overlays = {
+        "Bar Markers": markerLayer,
+        "Bar Heatmap": heatLayer
+      };
+      L.control.layers(null, overlays, { collapsed: false }).addTo(map);
+    })
+    .catch(error => {
+      console.error('Error loading GeoJSON:', error);
+    });
+
+  // Convert GeoJSON Points to heatmap [lat, lng, intensity]
+  function geojsonToHeatArray(geojson) {
+    const heatArray = [];
+
+    geojson.features.forEach(feature => {
+      if (feature.geometry && feature.geometry.type === "Point") {
+        const coords = feature.geometry.coordinates;
+        const lat = coords[1];
+        const lng = coords[0];
+        heatArray.push([lat, lng, 1]); // Replace 1 with custom weight if needed
+      }
+    });
+
+    return heatArray;
+  }
+</script>
+
 </body>
 </html>
