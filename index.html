@@ -35,7 +35,7 @@
     zoom: 12,  // EDIT from 1 (zoomed out) to 18 (zoomed in)
     scrollWheelZoom: false
   });
-var geojson = new L.GeoJSON.AJAX("bar.geojson");
+var geojson = new L.GeoJSON.AJAX("data/bar.geojson");
 geojson.on('data:loaded', function(){
 geojson.addTo(mymap);
 });
