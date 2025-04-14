@@ -32,15 +32,11 @@
     zoom: 12,  // EDIT from 1 (zoomed out) to 18 (zoomed in)
     scrollWheelZoom: false
   });
-var district_boundary = new L.geoJson();
-district_boundary.addTo(map);
+var geojson = new L.GeoJSON.AJAX("bar.geojson");
+geojson.on('data:loaded', function(){
+geojson.addTo(mymap);
+});
 
-async function getGeojson(layerName) {
-  const response = await fetch(`./${layerName}.geojson`);
-  const geojson = await response.json();
-  return geojson;
-}
-const geojsonData = await getGeojson( "bar");
   /* display basemap tiles -- see others at https://leaflet-extras.github.io/leaflet-providers/preview/ */
   L.tileLayer(
     'https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png', {
