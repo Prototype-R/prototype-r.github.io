@@ -1,0 +1,5059 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-turbo",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2025-04-14T08:09:56Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/689550405",
+        "addr:city": "臺北市",
+        "addr:country": "TW",
+        "addr:district": "大安區",
+        "addr:housenumber": "385",
+        "addr:street": "復興南路二段",
+        "amenity": "pub",
+        "disused:amenity": "pub",
+        "disused:name": "DV8",
+        "name": "亨信酒棧"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5435448,
+          25.0221404
+        ]
+      },
+      "id": "node/689550405"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/689552718",
+        "amenity": "pub",
+        "name": "Roxy"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.543311,
+          25.0308022
+        ]
+      },
+      "id": "node/689552718"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/689553834",
+        "amenity": "pub",
+        "name": "Dick"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5431846,
+          25.0310374
+        ]
+      },
+      "id": "node/689553834"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/738835404",
+        "addr:city": "臺北市",
+        "addr:country": "TW",
+        "addr:district": "大安區",
+        "addr:full": "台北市新生南路三段56巷7號",
+        "addr:housenumber": "7",
+        "addr:postcode": "106",
+        "addr:street": "新生南路三段56巷",
+        "amenity": "pub",
+        "name": "女巫店",
+        "name:en": "Witch House",
+        "name:zh": "女巫店",
+        "name:zh-Latn-pinyin": "Nǚ​wū​diàn",
+        "opening_hours": "Mo-Th 11:00-24:00; Fr-Su 00:00-01:00,11:00-24:00",
+        "toilets:wheelchair": "no",
+        "website": "https://www.witchhouse.org/",
+        "wheelchair": "limited"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5335698,
+          25.0204821
+        ]
+      },
+      "id": "node/738835404"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2459044535",
+        "addr:city": "臺北市",
+        "addr:country": "TW",
+        "addr:district": "中山區",
+        "addr:full": "10457臺北市中山區南京東路二段1號",
+        "addr:housenumber": "1",
+        "addr:postcode": "10457",
+        "addr:street": "南京東路二段",
+        "amenity": "bar",
+        "branch": "南京店",
+        "branch:en": "Nanjing Branch",
+        "disused:amenity": "cafe",
+        "disused:branch": "南京二店",
+        "disused:name": "伯朗咖啡館",
+        "disused:name:en": "Mr. Brown Café",
+        "disused:name:zh": "伯朗咖啡館",
+        "name": "柏克金啤酒餐廳",
+        "name:en": "Buckskin Beerhouse",
+        "name:zh": "柏克金啤酒餐廳",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5279234,
+          25.0523276
+        ]
+      },
+      "id": "node/2459044535"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2712358251",
+        "addr:city": "台北市",
+        "addr:country": "TW",
+        "addr:district": "中山區",
+        "addr:housenumber": "2號之1",
+        "addr:postcode": "104",
+        "addr:street": "雙城街25巷",
+        "amenity": "pub",
+        "check_date": "2020-02-17",
+        "food": "yes",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "name": "PATINA Lounge",
+        "opening_hours": "20:00~04:00",
+        "payment:coins": "yes",
+        "payment:litecoin": "yes",
+        "phone": "+886 2 2597 5580"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.524566,
+          25.0661283
+        ]
+      },
+      "id": "node/2712358251"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2723697628",
+        "amenity": "bar",
+        "name": "菸灰缸pub"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.4608237,
+          25.0926855
+        ]
+      },
+      "id": "node/2723697628"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2723699162",
+        "amenity": "bar",
+        "name": "亞烈航斯pub"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.4556518,
+          25.0880538
+        ]
+      },
+      "id": "node/2723699162"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2912288203",
+        "amenity": "pub",
+        "karaoke": "yes",
+        "name": "好樂迪KTV",
+        "name:en": "HolidayKTV",
+        "name:zh": "好樂迪KTV",
+        "wheelchair": "limited"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.4389572,
+          25.1710865
+        ]
+      },
+      "id": "node/2912288203"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2943762795",
+        "addr:city": "台北市",
+        "addr:country": "TW",
+        "addr:district": "萬華區",
+        "addr:housenumber": "26",
+        "addr:postcode": "108",
+        "addr:street": "漢中街二段",
+        "amenity": "bar",
+        "name": "窖床音樂 Bar"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5076312,
+          25.0452206
+        ]
+      },
+      "id": "node/2943762795"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3008812246",
+        "addr:city": "臺北市",
+        "addr:country": "TW",
+        "addr:district": "中正區",
+        "addr:housenumber": "293",
+        "addr:postcode": "100",
+        "addr:street": "汀州路三段",
+        "amenity": "bar",
+        "disused:amenity": "restaurant",
+        "disused:cuisine": "steak_house",
+        "disused:name": "炙燒牛排",
+        "name": "Bittersweet Cocktail Bar",
+        "toilets:wheelchair": "no",
+        "wheelchair": "limited"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5357412,
+          25.0120181
+        ]
+      },
+      "id": "node/3008812246"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3136213211",
+        "addr:city": "台北市",
+        "addr:country": "TW",
+        "addr:district": "大安區",
+        "addr:full": "106台北市大安區復興南路二段309號",
+        "addr:housenumber": "309",
+        "addr:postcode": "106",
+        "addr:street": "復興南路二段",
+        "amenity": "pub",
+        "facebook": "https://www.facebook.com/ProzacBalcony",
+        "name": "百憂解陽台",
+        "name:en": "Prozac Balcony",
+        "name:zh": "百憂解陽台",
+        "opening_hours": "Mo-Su 19:00 - 2:30",
+        "phone": "+886-2-2377-1118"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5436003,
+          25.024109
+        ]
+      },
+      "id": "node/3136213211"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3151325299",
+        "addr:city": "臺北市",
+        "addr:country": "TW",
+        "addr:district": "中正區",
+        "addr:floor": "2",
+        "addr:full": "臺北市中正區羅斯福路四段24巷13號",
+        "addr:housenumber": "13",
+        "addr:postcode": "100",
+        "addr:street": "羅斯福路四段24巷",
+        "amenity": "bar",
+        "disused:amenity": "restaurant",
+        "disused:branch": "公館店",
+        "disused:name": "發福廚房",
+        "disused:opening_hours": "Mo-Fr 11:30-22:00; Sa,Su 11:00-22:00",
+        "disused:phone": "+886 2 2934 6088",
+        "name": "窖父",
+        "name:en": "Hideout",
+        "name:zh": "窖父",
+        "toilets:wheelchair": "no",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5325276,
+          25.0150493
+        ]
+      },
+      "id": "node/3151325299"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3154666300",
+        "addr:city": "台北市",
+        "addr:country": "TW",
+        "addr:district": "士林區",
+        "addr:full": "台北市士林區中山北路七段29號",
+        "addr:housenumber": "29",
+        "addr:postcode": "111",
+        "addr:street": "中山北路七段",
+        "amenity": "bar",
+        "disused:amenity": "ice_cream",
+        "disused:branch": "天母門市",
+        "disused:facebook": "http://www.facebook.com/DQTaiwan",
+        "disused:name": "Dairy Queen",
+        "disused:phone": "+886-2-2871-0810",
+        "disused:website": "http://www.dairyqueen.com.tw/",
+        "name": "Wicked Wolfpack",
+        "website": "https://www.wickedwolfpack.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5305062,
+          25.1193447
+        ]
+      },
+      "id": "node/3154666300"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3225050608",
+        "addr:city": "臺北市",
+        "addr:country": "TW",
+        "addr:district": "中山區",
+        "addr:housenumber": "90",
+        "addr:postcode": "104",
+        "addr:street": "建國北路二段",
+        "amenity": "bar",
+        "lgbtq": "welcome",
+        "name": "TABOO",
+        "note": "同志友善店家, 週三：19:00-01:00 週五、週六：22:00-04:00",
+        "opening_hours": "We 19:00-1:00; Fr-Sa 22:00-4:00",
+        "phone": "+886-2-2518-1119"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.536526,
+          25.0565684
+        ]
+      },
+      "id": "node/3225050608"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3226282863",
+        "addr:city": "台北市",
+        "addr:country": "TW",
+        "addr:district": "中山區",
+        "addr:housenumber": "61",
+        "addr:street": "林森北路107巷",
+        "amenity": "bar",
+        "lgbtq": "welcome",
+        "name": "L-World",
+        "opening_hours": "22:00-07:00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5271519,
+          25.0499337
+        ]
+      },
+      "id": "node/3226282863"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3255254238",
+        "addr:city": "臺北市",
+        "addr:country": "TW",
+        "addr:district": "萬華區",
+        "addr:housenumber": "9",
+        "addr:postcode": "108",
+        "addr:street": "漢口街二段90巷8弄",
+        "amenity": "bar",
+        "check_date": "2019-10-25",
+        "facebook": "https://www.facebook.com/beerbicycle",
+        "name": "王老先生有塊地單車酒吧",
+        "name:en": "BeerBicycle Beer Bar",
+        "name:zh": "王老先生有塊地單車酒吧",
+        "phone": "+886975551156",
+        "website": "http://www.beerbicycle.org/",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5039948,
+          25.0458819
+        ]
+      },
+      "id": "node/3255254238"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3278033042",
+        "addr:city": "台北市",
+        "addr:country": "TW",
+        "addr:district": "信義區",
+        "addr:housenumber": "91",
+        "addr:postcode": "110",
+        "addr:street": "松仁路",
+        "amenity": "bar",
+        "branch": "松仁店",
+        "branch:en": "Songren Branch",
+        "disused:amenity": "restaurant",
+        "name": "柏克金啤酒餐廳",
+        "name:en": "Buckskin Beerhouse",
+        "name:zh": "柏克金啤酒餐廳",
+        "old_name": "Longtable;Hooters",
+        "opening_hours": "Su-Th 11:30-22:00; Fr-Sa 11:30-02:00",
+        "outdoor_seating": "yes",
+        "phone": "+886 2 2758 3655",
+        "website": "https://www.buckskin.com.tw/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5692844,
+          25.0372042
+        ]
+      },
+      "id": "node/3278033042"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3307881908",
+        "addr:city": "台北市",
+        "addr:country": "TW",
+        "addr:district": "大安區",
+        "addr:housenumber": "118",
+        "addr:postcode": "106",
+        "addr:street": "市民大道四段",
+        "amenity": "bar",
+        "disused:amenity": "restaurant",
+        "disused:name": "馥臨港式火鍋",
+        "name": "BOX Taipei"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5511229,
+          25.0443484
+        ]
+      },
+      "id": "node/3307881908"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3311796699",
+        "addr:city": "臺北市",
+        "addr:country": "TW",
+        "addr:district": "大安區",
+        "addr:housenumber": "42",
+        "addr:postcode": "106",
+        "addr:street": "忠孝東路四段181巷",
+        "amenity": "bar",
+        "name": "ZEAL",
+        "opening_hours": "19:00 - 03:00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5506905,
+          25.0441686
+        ]
+      },
+      "id": "node/3311796699"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3311796754",
+        "addr:city": "臺北市",
+        "addr:country": "TW",
+        "addr:district": "大安區",
+        "addr:housenumber": "39",
+        "addr:postcode": "106",
+        "addr:street": "忠孝東路四段181巷",
+        "amenity": "bar",
+        "name": "関白酒場",
+        "opening_hours": "17:00 - 02:00",
+        "website": "https://www.facebook.com/pages/%E9%96%A2%E7%99%BD%E9%85%92%E5%A0%B4-Afternoon-Tea-Grill-Bar/1446666215608544"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5508863,
+          25.0442938
+        ]
+      },
+      "id": "node/3311796754"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3421626694",
+        "amenity": "bar",
+        "name": "絕色"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5327262,
+          25.0533688
+        ]
+      },
+      "id": "node/3421626694"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3421626993",
+        "amenity": "bar",
+        "name": "名亨酒店"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5327344,
+          25.0538504
+        ]
+      },
+      "id": "node/3421626993"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3448162405",
+        "addr:city": "臺北市",
+        "addr:country": "TW",
+        "addr:district": "大安區",
+        "addr:housenumber": "307",
+        "addr:postcode": "106",
+        "addr:street": "信義路四段",
+        "amenity": "bar",
+        "name": "Digout",
+        "opening_hours": "08:00-02:00",
+        "phone": "+886 227 035 775"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5551,
+          25.0333656
+        ]
+      },
+      "id": "node/3448162405"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3454018623",
+        "addr:city": "臺北市",
+        "addr:country": "TW",
+        "addr:district": "大安區",
+        "addr:housenumber": "27",
+        "addr:postcode": "106",
+        "addr:street": "光復南路420巷",
+        "amenity": "bar",
+        "name": "J's Place 輕鬆小酒館",
+        "opening_hours": "Mo-Sa 18:00-02:00",
+        "outdoor_seating": "yes",
+        "phone": "+886 227 044 548"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5559435,
+          25.0363495
+        ]
+      },
+      "id": "node/3454018623"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3454018625",
+        "addr:city": "臺北市",
+        "addr:country": "TW",
+        "addr:district": "大安區",
+        "addr:housenumber": "1",
+        "addr:postcode": "106",
+        "addr:street": "安和路一段102巷",
+        "amenity": "bar",
+        "name": "Sappho Live",
+        "opening_hours": "Tu-Su 20:00-03:00",
+        "phone": "+886 227 005 411",
+        "smoking": "no",
+        "website": "http://www.sappholive.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.552148,
+          25.034265
+        ]
+      },
+      "id": "node/3454018625"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3503443017",
+        "addr:city": "臺北市",
+        "addr:country": "TW",
+        "addr:district": "中山區",
+        "addr:housenumber": "3",
+        "addr:postcode": "104",
+        "addr:street": "松江路25巷",
+        "amenity": "pub",
+        "name": "愛爾蘭酒吧",
+        "name:en": "The pub",
+        "name:zh": "愛爾蘭酒吧",
+        "opening_hours": "Mo-Su 18:00-4:00",
+        "phone": "+886 2 2507 7709"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5336165,
+          25.0471769
+        ]
+      },
+      "id": "node/3503443017"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3533381894",
+        "amenity": "bar",
+        "name": "方馨酒坊"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5316329,
+          25.0535121
+        ]
+      },
+      "id": "node/3533381894"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3603954059",
+        "addr:city": "新北市",
+        "addr:country": "TW",
+        "addr:district": "樹林區",
+        "addr:housenumber": "294",
+        "addr:postcode": "23844",
+        "addr:street": "中山路一段",
+        "amenity": "pub",
+        "name": "築前居酒屋",
+        "opening_hours": "Mo off; Tu-Fr 11:00-15:00,17:00-01:00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.4203699,
+          24.9865886
+        ]
+      },
+      "id": "node/3603954059"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3649178926",
+        "addr:city": "臺北市",
+        "addr:country": "TW",
+        "addr:district": "中正區",
+        "addr:housenumber": "10",
+        "addr:postcode": "100",
+        "addr:street": "新生南路一段54巷",
+        "amenity": "bar",
+        "name": "義大利女巫咖啡酒吧"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.532262,
+          25.0412135
+        ]
+      },
+      "id": "node/3649178926"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3670374290",
+        "addr:city": "臺北市",
+        "addr:country": "TW",
+        "addr:district": "大安區",
+        "addr:housenumber": "26",
+        "addr:postcode": "106",
+        "addr:street": "延吉街137巷",
+        "amenity": "bar",
+        "name": "El Cielo",
+        "opening_hours": "Su-Th 18:00-02:00, Fr-Sa 18:00-03:00",
+        "website": "https://www.facebook.com/ElCielo.Lounge"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5553408,
+          25.0419245
+        ]
+      },
+      "id": "node/3670374290"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3670374301",
+        "addr:city": "臺北市",
+        "addr:country": "TW",
+        "addr:district": "大安區",
+        "addr:housenumber": "33",
+        "addr:postcode": "106",
+        "addr:street": "延吉街131巷",
+        "amenity": "bar",
+        "name": "友達居酒屋",
+        "note": "專頁上說八月份要取消週一公休",
+        "opening_hours": "Tu-Su 18:00-02:00",
+        "website": "https://www.facebook.com/tomodachifamily/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5557212,
+          25.0428874
+        ]
+      },
+      "id": "node/3670374301"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3670374303",
+        "addr:city": "臺北市",
+        "addr:country": "TW",
+        "addr:district": "大安區",
+        "addr:housenumber": "39",
+        "addr:postcode": "106",
+        "addr:street": "延吉街131巷",
+        "amenity": "bar",
+        "name": "和居酒屋",
+        "opening_hours": "Mo-Sa 11:30-14:00; 17:00-23:00",
+        "website": "https://www.facebook.com/hoizagaya"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5557725,
+          25.0429066
+        ]
+      },
+      "id": "node/3670374303"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3670374318",
+        "addr:city": "臺北市",
+        "addr:country": "TW",
+        "addr:district": "大安區",
+        "addr:housenumber": "9",
+        "addr:postcode": "106",
+        "addr:street": "延吉街131巷",
+        "amenity": "bar",
+        "name": "武藏居食屋",
+        "note": "專頁上說八月份要取消週一公休",
+        "opening_hours": "Su-Th 17:00-01:00, Fr-Sa 17:00-02:30",
+        "website": "https://www.facebook.com/pages/%E6%AD%A6%E8%97%8F%E5%B1%85%E9%A3%9F%E5%B1%8B/174159182605016"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5547627,
+          25.0427147
+        ]
+      },
+      "id": "node/3670374318"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3670390134",
+        "addr:city": "臺北市",
+        "addr:country": "TW",
+        "addr:district": "大安區",
+        "addr:housenumber": "18",
+        "addr:postcode": "106",
+        "addr:street": "延吉街131巷",
+        "amenity": "bar",
+        "name": "菜鳥居酒屋",
+        "opening_hours": "18:00 - 00:00; Tu off",
+        "website": "https://www.facebook.com/rookie.restaurant"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5550945,
+          25.0426715
+        ]
+      },
+      "id": "node/3670390134"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3692994193",
+        "addr:city": "臺北市",
+        "addr:country": "TW",
+        "addr:district": "信義區",
+        "addr:housenumber": "90",
+        "addr:postcode": "110",
+        "addr:street": "松仁路",
+        "amenity": "bar",
+        "name": "Marsalis Home Taipei",
+        "opening_hours": "Su-Th 19:00-02:00; Fr-Sa 19:00-03:00",
+        "phone": "+886 287 898 166",
+        "smoking": "isolated",
+        "website": "https://www.facebook.com/marsalishome"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5677466,
+          25.0349899
+        ]
+      },
+      "id": "node/3692994193"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3710925669",
+        "addr:city": "新北市",
+        "addr:country": "TW",
+        "addr:district": "新莊區",
+        "addr:housenumber": "588",
+        "addr:postcode": "242",
+        "addr:street": "中正路",
+        "amenity": "bar",
+        "name": "撞乃基運動吧",
+        "name:en": "Gng Sports Club",
+        "name:zh": "撞乃基運動吧"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.4270161,
+          25.0304669
+        ]
+      },
+      "id": "node/3710925669"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3818946603",
+        "amenity": "bar",
+        "name": "The Pipe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5290034,
+          25.0106483
+        ]
+      },
+      "id": "node/3818946603"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3929888475",
+        "addr:city": "台北市",
+        "addr:country": "TW",
+        "addr:district": "文山區",
+        "addr:housenumber": "223",
+        "addr:postcode": "116",
+        "addr:street": "羅斯福路六段",
+        "amenity": "bar",
+        "disused:amenity": "restaurant",
+        "disused:name": "吳愛幸福好料理",
+        "name": "Lucky Strike",
+        "opening_hours": "Mo-Su 17:00-25:00",
+        "phone": "+886 966 831 209"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5413758,
+          24.995733
+        ]
+      },
+      "id": "node/3929888475"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3955430400",
+        "amenity": "bar",
+        "name": "角落酒吧The Corner One"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5619192,
+          25.0542383
+        ]
+      },
+      "id": "node/3955430400"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4033360507",
+        "addr:city": "台北市",
+        "addr:country": "TW",
+        "addr:district": "文山區",
+        "addr:housenumber": "241",
+        "addr:postcode": "116",
+        "addr:street": "興隆路一段",
+        "amenity": "bar",
+        "name": "藍區藝術巴"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5440468,
+          24.9996804
+        ]
+      },
+      "id": "node/4033360507"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4034043338",
+        "addr:city": "臺北市",
+        "addr:country": "TW",
+        "addr:district": "大安區",
+        "addr:housenumber": "140",
+        "addr:postcode": "106",
+        "addr:street": "四維路",
+        "amenity": "bar",
+        "name": "La Petite Chambre",
+        "name:zh": "小房間餐酒館",
+        "opening_hours": "Su-Mo 18:30-23:30; Tu 20:00-23:30; We-Th 18:30-23:30; Fr-Sa 18:30-02:30",
+        "phone": "+886 223 258 036",
+        "website": "https://www.facebook.com/pages/La-Petite-Chambre-%E5%B0%8F%E6%88%BF%E9%96%93/115323165298765"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5479257,
+          25.0312739
+        ]
+      },
+      "id": "node/4034043338"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4096918908",
+        "addr:city": "臺北市",
+        "addr:country": "TW",
+        "addr:district": "大安區",
+        "addr:full": "台北市永康街4巷10號",
+        "addr:housenumber": "10",
+        "addr:postcode": "106",
+        "addr:street": "永康街4巷",
+        "amenity": "bar",
+        "contact:facebook": "https://www.facebook.com/ZMBTaipei",
+        "name": "掌門精釀啤酒",
+        "name:en": "Zhang Men Craft Brewery",
+        "name:zh": "掌門精釀啤酒",
+        "opening_hours": "Mo-Th, Su 13:00-00:00; Fr, Sa 13:00-01:00",
+        "phone": "+886-2-2395-2366",
+        "website": "https://www.zhangmen.co/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5295139,
+          25.0328556
+        ]
+      },
+      "id": "node/4096918908"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4099753069",
+        "amenity": "bar",
+        "name": "Juicy Bun"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.576085,
+          24.9881719
+        ]
+      },
+      "id": "node/4099753069"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4109491421",
+        "amenity": "bar",
+        "name": "Taiwan Beer Bar"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5348701,
+          25.0459764
+        ]
+      },
+      "id": "node/4109491421"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4115302788",
+        "addr:postcode": "110",
+        "amenity": "pub",
+        "internet_access": "wlan",
+        "name": "Brass Monkey",
+        "opening_hours": "Mo-Su 11:00-01:00",
+        "phone": "+886 2 2722 5755",
+        "website": "https://www.brassmonkeytaipei.com/bmx/",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5673917,
+          25.0352102
+        ]
+      },
+      "id": "node/4115302788"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4149564842",
+        "addr:city": "臺北市",
+        "addr:country": "TW",
+        "addr:district": "中正區",
+        "addr:housenumber": "278之1",
+        "addr:postcode": "100",
+        "addr:street": "羅斯福路三段",
+        "amenity": "bar",
+        "disused:name": "台灣之星",
+        "disused:office": "telecommunication",
+        "name": "James Joyce Irish Bar",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.532062,
+          25.0165836
+        ]
+      },
+      "id": "node/4149564842"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4194128291",
+        "amenity": "pub",
+        "name": "響"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5253622,
+          25.0513488
+        ]
+      },
+      "id": "node/4194128291"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4198179225",
+        "addr:city": "台北市",
+        "addr:country": "TW",
+        "addr:district": "文山區",
+        "addr:full": "台北市文山區羅斯福路五段31-1號",
+        "addr:housenumber": "31-1",
+        "addr:postcode": "116",
+        "addr:street": "羅斯福路五段",
+        "amenity": "bar",
+        "name": "Circle Bar"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5387257,
+          25.0076773
+        ]
+      },
+      "id": "node/4198179225"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4198238509",
+        "amenity": "pub",
+        "name": "Starring Night"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5292873,
+          25.0503854
+        ]
+      },
+      "id": "node/4198238509"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4205230078",
+        "addr:city": "台北市",
+        "addr:country": "TW",
+        "addr:district": "中山區",
+        "addr:housenumber": "166",
+        "addr:postcode": "104",
+        "addr:street": "復興北路",
+        "amenity": "bar",
+        "name": "銅猴子",
+        "name:en": "The Brass Monkey"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5438236,
+          25.0535816
+        ]
+      },
+      "id": "node/4205230078"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4207604679",
+        "amenity": "pub",
+        "name": "華僑大舞廳"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5276664,
+          25.0413523
+        ]
+      },
+      "id": "node/4207604679"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4207707330",
+        "addr:city": "臺北市",
+        "addr:country": "TW",
+        "addr:district": "中正區",
+        "addr:housenumber": "31",
+        "addr:postcode": "100",
+        "addr:street": "辛亥路一段",
+        "amenity": "bar",
+        "indoor_seating": "yes",
+        "name": "Another Brick",
+        "outdoor_seating": "no",
+        "phone": "+886-2-2365-2371",
+        "website": "https://www.facebook.com/AnotherBrickTaipei/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5283361,
+          25.0194143
+        ]
+      },
+      "id": "node/4207707330"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4255504790",
+        "addr:street": "松仁路",
+        "amenity": "bar",
+        "name": "CIGAR GALLERY雪茄館",
+        "opening_hours": "Mo-Th 11:00-00:00; Fr-Sa 11:00-01:00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5680048,
+          25.0350151
+        ]
+      },
+      "id": "node/4255504790"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4298897595",
+        "addr:city": "台北市",
+        "addr:country": "TW",
+        "addr:district": "中山區",
+        "addr:housenumber": "19之2",
+        "addr:postcode": "104",
+        "addr:street": "長安東路二段201巷",
+        "amenity": "bar",
+        "name": "Cyntonia's Cafe & Bar",
+        "phone": "+886 2 2778 2180"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5435231,
+          25.0493916
+        ]
+      },
+      "id": "node/4298897595"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4298941391",
+        "addr:city": "臺北市",
+        "addr:country": "TW",
+        "addr:district": "大安區",
+        "addr:floor": "B1",
+        "addr:full": "臺北市大安區仁愛路四段383號B1",
+        "addr:housenumber": "383",
+        "addr:postcode": "106",
+        "addr:street": "仁愛路四段",
+        "amenity": "bar",
+        "name": "鈞太酒藏",
+        "name:en": "Domaine Wine Cellars",
+        "name:zh": "鈞太酒藏",
+        "opening_hours": "Mo-Fr 10:00-25:00,Sa-Su 12:00-25:00",
+        "phone": "+886 2 2776 0066",
+        "website": "https://domaine.com.tw/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5551457,
+          25.0381121
+        ]
+      },
+      "id": "node/4298941391"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4326366892",
+        "amenity": "pub",
+        "name": "魯哇克"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.505674,
+          25.0317514
+        ]
+      },
+      "id": "node/4326366892"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4329769306",
+        "addr:city": "台北市",
+        "addr:country": "TW",
+        "addr:district": "士林區",
+        "addr:housenumber": "98",
+        "addr:postcode": "111",
+        "addr:street": "中山北路五段",
+        "amenity": "pub",
+        "name": "溫慶珠流行事業",
+        "toilets:wheelchair": "no",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5259738,
+          25.0845199
+        ]
+      },
+      "id": "node/4329769306"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4344542404",
+        "amenity": "bar",
+        "name": "Ageha Bar"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5271801,
+          25.0506994
+        ]
+      },
+      "id": "node/4344542404"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4344542445",
+        "addr:city": "台北市",
+        "addr:country": "TW",
+        "addr:district": "中山區",
+        "addr:full": "台北市中山區林森北路133巷76號",
+        "addr:housenumber": "76",
+        "addr:street": "林森北路133巷",
+        "amenity": "bar",
+        "name": "蕃居酒屋"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5272381,
+          25.050577
+        ]
+      },
+      "id": "node/4344542445"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4344543601",
+        "addr:city": "台北市",
+        "addr:country": "TW",
+        "addr:district": "中山區",
+        "addr:housenumber": "50",
+        "addr:postcode": "104",
+        "addr:street": "林森北路",
+        "amenity": "pub",
+        "name": "金傳"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5240953,
+          25.0483547
+        ]
+      },
+      "id": "node/4344543601"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4375634592",
+        "amenity": "bar",
+        "name": "Fourplay Cuisine☆"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5478236,
+          25.0361453
+        ]
+      },
+      "id": "node/4375634592"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4384259204",
+        "addr:city": "臺北市",
+        "addr:country": "TW",
+        "addr:district": "大同區",
+        "addr:full": "103002臺北市大同區南京西路241號",
+        "addr:housenumber": "241",
+        "addr:postcode": "103002",
+        "addr:street": "南京西路",
+        "amenity": "bar",
+        "name": "米凱樂啤酒吧",
+        "name:en": "Mikkeller",
+        "name:zh": "米凱樂啤酒吧",
+        "opening_hours": "Tu-Fr 16:00-24:00; Sa 14:00-24:00; Su 14:00-22:00",
+        "phone": "+886 2 2558 6978",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5101463,
+          25.0536758
+        ]
+      },
+      "id": "node/4384259204"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4397679795",
+        "addr:city": "台北市",
+        "addr:country": "TW",
+        "addr:district": "中山區",
+        "addr:housenumber": "1",
+        "addr:postcode": "104",
+        "addr:street": "中山北路一段33巷",
+        "amenity": "bar",
+        "internet_access": "wlan",
+        "name": "二條通．綠島小夜曲",
+        "name:ja": "二条通.綠島夜曲カフェ",
+        "name:zh": "二條通．綠島小夜曲",
+        "opening_hours": "Mo-Su 00:00-21:00",
+        "phone": "+886 2 2531 4594",
+        "website": "https://theisland.tw/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.521559,
+          25.0488428
+        ]
+      },
+      "id": "node/4397679795"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4430741591",
+        "amenity": "bar",
+        "cuisine": "grill",
+        "name": "Funky Fresh Craft Beer",
+        "name:en": "Funky Fresh Craft Beer",
+        "name:ja": "Funky Freshクラフトビール",
+        "name:zh": "Funky Fresh Craft Beer",
+        "opening_hours": "We-Mo 19:00-00:00",
+        "toilets:wheelchair": "no",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5241658,
+          25.0887915
+        ]
+      },
+      "id": "node/4430741591"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4520685971",
+        "amenity": "bar",
+        "name": "Tapas Bar",
+        "opening_hours": "Mo-Su 17:00-23:00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5197491,
+          25.0264027
+        ]
+      },
+      "id": "node/4520685971"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4524863764",
+        "addr:city": "台北市",
+        "addr:country": "TW",
+        "addr:district": "中山區",
+        "addr:housenumber": "152",
+        "addr:postcode": "104",
+        "addr:street": "松江路",
+        "amenity": "pub",
+        "name": "松江會館"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5327177,
+          25.0540578
+        ]
+      },
+      "id": "node/4524863764"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4524863846",
+        "amenity": "pub",
+        "name": "沙羅",
+        "name:en": "SHALUO",
+        "name:zh": "沙羅"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5328617,
+          25.0562847
+        ]
+      },
+      "id": "node/4524863846"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4538270105",
+        "addr:city": "台北市",
+        "addr:country": "TW",
+        "addr:district": "文山區",
+        "addr:housenumber": "158",
+        "addr:postcode": "116",
+        "addr:street": "景美街",
+        "amenity": "bar",
+        "disused:amenity": "place_of_worship",
+        "disused:name": "泰國四面佛",
+        "disused:religion": "hindu",
+        "name": "Old Bridge"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5414784,
+          24.988406
+        ]
+      },
+      "id": "node/4538270105"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4538270123",
+        "amenity": "bar"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5395878,
+          24.9691476
+        ]
+      },
+      "id": "node/4538270123"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4612179003",
+        "addr:city": "台北市",
+        "addr:country": "TW",
+        "addr:district": "萬華區",
+        "addr:housenumber": "10",
+        "addr:postcode": "108",
+        "addr:street": "成都路",
+        "amenity": "bar",
+        "internet_access": "wlan",
+        "name": "The garden",
+        "name:zh": "The garden",
+        "phone": "+886223110587",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5066762,
+          25.0418312
+        ]
+      },
+      "id": "node/4612179003"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4637224946",
+        "addr:city": "臺北市",
+        "addr:country": "TW",
+        "addr:district": "大安區",
+        "addr:floor": "2",
+        "addr:housenumber": "45",
+        "addr:postcode": "106",
+        "addr:street": "和平東路一段",
+        "amenity": "bar",
+        "name": "45 酒吧 Bar",
+        "outdoor_seating": "no",
+        "toilets": "yes",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5241037,
+          25.027154
+        ]
+      },
+      "id": "node/4637224946"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4637537195",
+        "addr:city": "臺北市",
+        "addr:country": "TW",
+        "addr:district": "中正區",
+        "addr:housenumber": "1之1",
+        "addr:postcode": "100",
+        "addr:street": "羅斯福路一段",
+        "amenity": "bar",
+        "name": "Revolver",
+        "outdoor_seating": "yes",
+        "phone": "+886-2-3393-1678",
+        "smoking": "yes",
+        "website": "https://www.revolver.tw",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5174376,
+          25.0342656
+        ]
+      },
+      "id": "node/4637537195"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4678624021",
+        "addr:city": "台北市",
+        "addr:country": "TW",
+        "addr:district": "大同區",
+        "addr:housenumber": "34",
+        "addr:postcode": "10344",
+        "addr:street": "民生西路362巷",
+        "amenity": "bar",
+        "name": "Le Zinc 洛 Cafe & Bar",
+        "opening_hours": "Su-Tu 10:00-19:00; Tu-Sa 10:00-24:00",
+        "phone": "+886 2 2552 1367 #16",
+        "website": "https://www.facebook.com/LeZincLo",
+        "wheelchair": "limited"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5104529,
+          25.0559604
+        ]
+      },
+      "id": "node/4678624021"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4742463122",
+        "amenity": "bar",
+        "cuisine": "american",
+        "name:en": "Beer & Cheese Social House",
+        "opening_hours": "Mo-Su 18:00-01:00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5572408,
+          25.0286339
+        ]
+      },
+      "id": "node/4742463122"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4746290407",
+        "amenity": "bar",
+        "name": "盛屋大吉",
+        "outdoor_seating": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5778384,
+          25.0747749
+        ]
+      },
+      "id": "node/4746290407"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4797813722",
+        "amenity": "bar",
+        "name:en": "Pine Yellow Premium"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.4389391,
+          25.1715563
+        ]
+      },
+      "id": "node/4797813722"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4834803677",
+        "amenity": "bar",
+        "wheelchair": "limited"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5318005,
+          25.0194425
+        ]
+      },
+      "id": "node/4834803677"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4836631394",
+        "amenity": "pub",
+        "name": "ROZY ROCKER"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5321914,
+          25.0265645
+        ]
+      },
+      "id": "node/4836631394"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4837986418",
+        "addr:city": "臺北市",
+        "addr:country": "TW",
+        "addr:district": "大安區",
+        "addr:housenumber": "263",
+        "addr:postcode": "106",
+        "addr:street": "基隆路二段",
+        "amenity": "pub",
+        "name": "馬路酒廠"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5502205,
+          25.0220082
+        ]
+      },
+      "id": "node/4837986418"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4837986442",
+        "amenity": "pub"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5548818,
+          25.0261415
+        ]
+      },
+      "id": "node/4837986442"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4891507121",
+        "addr:city": "台北市",
+        "addr:country": "TW",
+        "addr:district": "松山區",
+        "addr:housenumber": "179",
+        "addr:postcode": "105",
+        "addr:street": "市民大道四段",
+        "amenity": "bar",
+        "name": "1978壹酒柒吧燒烤海鮮酒吧",
+        "name:zh": "1978壹酒柒吧燒烤海鮮酒吧"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5518621,
+          25.0447419
+        ]
+      },
+      "id": "node/4891507121"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4922600921",
+        "amenity": "bar",
+        "name:nl": "Malibu"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.524365,
+          25.0661471
+        ]
+      },
+      "id": "node/4922600921"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4922600922",
+        "amenity": "bar",
+        "name:nl": "My Place"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5237416,
+          25.0662412
+        ]
+      },
+      "id": "node/4922600922"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5109347813",
+        "addr:city": "台北市",
+        "addr:country": "TW",
+        "addr:district": "大安區",
+        "addr:housenumber": "100",
+        "addr:postcode": "106",
+        "addr:street": "辛亥路一段",
+        "amenity": "bar",
+        "name": "23 Public",
+        "toilets:wheelchair": "no",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5318493,
+          25.0213988
+        ]
+      },
+      "id": "node/5109347813"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5110269758",
+        "amenity": "pub",
+        "disused:name": "三禾會館",
+        "floor": "3",
+        "name": "皇廷會所"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5357854,
+          25.0516738
+        ]
+      },
+      "id": "node/5110269758"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5110348188",
+        "amenity": "bar",
+        "name": "mousse"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5576114,
+          25.0301663
+        ]
+      },
+      "id": "node/5110348188"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5110348213",
+        "amenity": "pub"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.557533,
+          25.0512574
+        ]
+      },
+      "id": "node/5110348213"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5110348736",
+        "amenity": "pub",
+        "name": "Dancing Elephant"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5610292,
+          25.0471119
+        ]
+      },
+      "id": "node/5110348736"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5110348774",
+        "addr:city": "臺北市",
+        "addr:country": "TW",
+        "addr:district": "大安區",
+        "addr:housenumber": "554",
+        "addr:postcode": "106",
+        "addr:street": "光復南路",
+        "amenity": "bar",
+        "name": "The Speakeasy Bar",
+        "smoking": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5572543,
+          25.0345615
+        ]
+      },
+      "id": "node/5110348774"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5110348784",
+        "amenity": "pub",
+        "name": "王牌 巴賽隆納",
+        "old_name": "101巴塞隆納"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5597491,
+          25.0337237
+        ]
+      },
+      "id": "node/5110348784"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5110489814",
+        "amenity": "pub",
+        "name": "川普會館"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5245575,
+          25.0604137
+        ]
+      },
+      "id": "node/5110489814"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5110490223",
+        "amenity": "bar",
+        "name": "啤酒調酒",
+        "name:en": "DRIFTWOOD",
+        "name:zh": "啤酒調酒"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5055267,
+          25.0468046
+        ]
+      },
+      "id": "node/5110490223"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5110490233",
+        "amenity": "bar",
+        "name": "Commander",
+        "toilets:wheelchair": "no",
+        "wheelchair": "limited"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5078354,
+          25.0461649
+        ]
+      },
+      "id": "node/5110490233"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5110490241",
+        "addr:city": "台北市",
+        "addr:country": "TW",
+        "addr:district": "萬華區",
+        "addr:housenumber": "58",
+        "addr:postcode": "108",
+        "addr:street": "開封街二段",
+        "amenity": "pub",
+        "name": "The 58 bar",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5072363,
+          25.046442
+        ]
+      },
+      "id": "node/5110490241"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5123592885",
+        "amenity": "bar",
+        "name": "7th Japanese Bar",
+        "smoking": "no",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5265229,
+          25.0504653
+        ]
+      },
+      "id": "node/5123592885"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5136596723",
+        "addr:city": "台北市",
+        "addr:country": "TW",
+        "addr:district": "中正區",
+        "addr:full": "100台北市忠孝東路二段64巷4號",
+        "addr:housenumber": "4",
+        "addr:postcode": "100",
+        "addr:street": "忠孝東路二段64巷",
+        "amenity": "bar",
+        "name": "三重奏比特司",
+        "name:en": "Trio Bitter",
+        "name:zh": "三重奏比特司",
+        "phone": "+886 2 2358 4988"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5285695,
+          25.0429934
+        ]
+      },
+      "id": "node/5136596723"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5147969222",
+        "amenity": "bar",
+        "cuisine": "sandwich",
+        "name:de": "Liquid Bread Company",
+        "name:en": "Liquid Bread Company"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5569472,
+          25.0337359
+        ]
+      },
+      "id": "node/5147969222"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5149270078",
+        "amenity": "bar",
+        "name": "軍火庫精釀啤酒"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5156823,
+          25.0539057
+        ]
+      },
+      "id": "node/5149270078"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5174460921",
+        "amenity": "bar",
+        "cuisine": "tapas",
+        "internet_access": "wlan",
+        "name:en": "R&D Cocktail Lab",
+        "opening_hours": "Tu-Th 19:00-02:00; Fr-Sa 19:00-03:00; Su 18:30-00:30",
+        "website": "https://r-d.tw/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5581631,
+          25.0317351
+        ]
+      },
+      "id": "node/5174460921"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5189810123",
+        "addr:city": "台北市",
+        "addr:country": "TW",
+        "addr:district": "士林區",
+        "addr:housenumber": "4",
+        "addr:postcode": "111",
+        "addr:street": "天母西路41巷",
+        "amenity": "pub",
+        "name": "燒肉居酒屋",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5274572,
+          25.1189503
+        ]
+      },
+      "id": "node/5189810123"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5197947430",
+        "amenity": "bar",
+        "name": "東海萊姆園organic lime",
+        "organic": "yes",
+        "shop": "greengrocer",
+        "toilets:wheelchair": "no",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5294367,
+          25.1185289
+        ]
+      },
+      "id": "node/5197947430"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5225039561",
+        "addr:city": "台北市",
+        "addr:country": "TW",
+        "addr:district": "中山區",
+        "addr:full": "台北市中山區德惠街6-1號",
+        "addr:housenumber": "6-1",
+        "addr:postcode": "104",
+        "addr:street": "德惠街",
+        "amenity": "pub",
+        "contact:facebook": "https://www.facebook.com/綠門-Green-Door-bar-165838296802510/",
+        "name": "綠門 Green Door bar",
+        "name:en": "Green Door bar",
+        "name:zh": "綠門",
+        "opening_hours": "Mo-Su 18:00-28:30",
+        "phone": "+886 2 2591 1818"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5235037,
+          25.0666156
+        ]
+      },
+      "id": "node/5225039561"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5324659748",
+        "addr:city": "臺北市",
+        "addr:country": "TW",
+        "addr:district": "中山區",
+        "addr:floor": "B1",
+        "addr:housenumber": "57-1",
+        "addr:postcode": "10412",
+        "addr:street": "中山北路二段",
+        "amenity": "bar",
+        "name": "MUD",
+        "opening_hours": "Tu-Sa 19:00-02:00; Sa 19:00-:00:00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5229898,
+          25.0557351
+        ]
+      },
+      "id": "node/5324659748"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5334332021",
+        "amenity": "pub",
+        "name:en": "LuxTerrace",
+        "name:ja": "ルクステラス(バー)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.52752,
+          25.0495946
+        ]
+      },
+      "id": "node/5334332021"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5334987821",
+        "amenity": "bar",
+        "cuisine": "chinese;local",
+        "name:ja": "大隱酒食",
+        "opening_hours": "Mo-Fr 17:00-00:00; Sa-Su 11:30-00:00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5297404,
+          25.02915
+        ]
+      },
+      "id": "node/5334987821"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5336034221",
+        "amenity": "bar",
+        "cuisine": "seafood;chinese;local;fish",
+        "name": "搖滾熱炒100",
+        "opening_hours": "Mo-Su 11:00-14:00, 17:00-22:00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5525604,
+          25.0407213
+        ]
+      },
+      "id": "node/5336034221"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5338228122",
+        "amenity": "bar",
+        "name:en": "Beau"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5569915,
+          25.0372308
+        ]
+      },
+      "id": "node/5338228122"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5408634621",
+        "amenity": "bar",
+        "name:en": "sol bistro"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5060708,
+          25.0419544
+        ]
+      },
+      "id": "node/5408634621"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5464751723",
+        "amenity": "bar",
+        "name": "余韻",
+        "note": "position accuracy"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5453059,
+          25.0460572
+        ]
+      },
+      "id": "node/5464751723"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5480864321",
+        "amenity": "bar",
+        "internet_access": "wlan",
+        "name": "Frank"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5660275,
+          25.0356598
+        ]
+      },
+      "id": "node/5480864321"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5544090025",
+        "amenity": "bar",
+        "name": "Alchemy",
+        "name:en": "Alchemy"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5629129,
+          25.0325524
+        ]
+      },
+      "id": "node/5544090025"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5544090028",
+        "amenity": "bar",
+        "name": "Mania 躁鎮",
+        "name:zh": "Mania 躁鎮"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5519707,
+          25.0264047
+        ]
+      },
+      "id": "node/5544090028"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5551870921",
+        "amenity": "bar",
+        "name": "首爾之星",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5343175,
+          25.0131953
+        ]
+      },
+      "id": "node/5551870921"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5551870925",
+        "amenity": "pub",
+        "name": "Yummy Yum好吃好吃",
+        "toilets:wheelchair": "no",
+        "wheelchair": "limited"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5354128,
+          25.0129665
+        ]
+      },
+      "id": "node/5551870925"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5585947226",
+        "amenity": "bar",
+        "name": "有誼撞球"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5795366,
+          25.0421325
+        ]
+      },
+      "id": "node/5585947226"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5615221621",
+        "amenity": "bar",
+        "name:en": "Jap Jap Bikini"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5141091,
+          25.0465323
+        ]
+      },
+      "id": "node/5615221621"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5652026421",
+        "amenity": "bar",
+        "name:en": "B2 Craft Beer"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5469126,
+          25.0436094
+        ]
+      },
+      "id": "node/5652026421"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5699174909",
+        "amenity": "bar",
+        "name": "Dick Place"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5439837,
+          25.0307921
+        ]
+      },
+      "id": "node/5699174909"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5739420398",
+        "addr:city": "新北市",
+        "addr:country": "TW",
+        "addr:district": "永和區",
+        "addr:housenumber": "3",
+        "addr:postcode": "234",
+        "addr:street": "忠孝街",
+        "amenity": "bar",
+        "name": "流民棧",
+        "opening_hours": "Mo-Sa 18:00-23:00; Su off",
+        "phone": "+886 2 3233 2611;+886 0927 981 520"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5154517,
+          25.0157319
+        ]
+      },
+      "id": "node/5739420398"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5739420400",
+        "amenity": "bar",
+        "name": "The Hammer",
+        "opening_hours": "Tu-Su 17:30-24:00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5152156,
+          25.0147305
+        ]
+      },
+      "id": "node/5739420400"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5775180155",
+        "amenity": "bar",
+        "name:en": "Draft Land"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5540408,
+          25.0411
+        ]
+      },
+      "id": "node/5775180155"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5775222854",
+        "amenity": "bar",
+        "name:en": "Indulge"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.54472,
+          25.0390465
+        ]
+      },
+      "id": "node/5775222854"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5784825496",
+        "addr:city": "台北市",
+        "addr:country": "TW",
+        "addr:district": "信義區",
+        "addr:floor": "4",
+        "addr:housenumber": "16",
+        "addr:postcode": "110",
+        "addr:street": "松高路",
+        "amenity": "bar",
+        "branch": "微風松高店",
+        "branch:en": "Breeze Song Gao",
+        "branch:zh": "微風松高店",
+        "brewery": "various",
+        "name": "掌門精釀啤酒",
+        "name:en": "Zhangmen Brewing",
+        "name:zh": "掌門精釀啤酒",
+        "opening_hours": "Mo-Fr 16:00-24:00, Sa-Su 14:00-24:00",
+        "outdoor_seating": "yes",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5672878,
+          25.0379117
+        ]
+      },
+      "id": "node/5784825496"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5937238269",
+        "amenity": "bar",
+        "name": "比爾與莉莉"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5440735,
+          25.0419224
+        ]
+      },
+      "id": "node/5937238269"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5937238270",
+        "amenity": "bar",
+        "name": "壹號會所"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.54404,
+          25.041892
+        ]
+      },
+      "id": "node/5937238270"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6010827885",
+        "addr:city": "台北市",
+        "addr:country": "TW",
+        "addr:district": "大同區",
+        "addr:housenumber": "368",
+        "addr:postcode": "104",
+        "addr:street": "迪化街一段",
+        "amenity": "bar",
+        "email": "rev.int.2015@gmail.com",
+        "internet_access": "wlan",
+        "name": "草御殿",
+        "name:en": "Ivy Palace",
+        "name:zh": "草御殿",
+        "outdoor_seating": "yes",
+        "phone": "+886 2 2550 0015",
+        "smoking": "outside",
+        "website": "http://www.facebook.com/pg/Okayagoten"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5092022,
+          25.0629275
+        ]
+      },
+      "id": "node/6010827885"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6051947885",
+        "amenity": "bar",
+        "name": "南京三渣"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5567254,
+          25.0522159
+        ]
+      },
+      "id": "node/6051947885"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6051947985",
+        "amenity": "bar",
+        "internet_access": "wlan",
+        "name": "小地方",
+        "name:en": "Seams",
+        "name:zh": "小地方"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.524099,
+          25.0225187
+        ]
+      },
+      "id": "node/6051947985"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6073651560",
+        "addr:city": "臺北市",
+        "addr:country": "TW",
+        "addr:district": "士林區",
+        "addr:housenumber": "8",
+        "addr:postcode": "111",
+        "addr:street": "大西路",
+        "amenity": "bar",
+        "name": "七大狼BAR",
+        "toilets": "no",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5241511,
+          25.0897845
+        ]
+      },
+      "id": "node/6073651560"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6074055673",
+        "addr:city": "臺北市",
+        "addr:country": "TW",
+        "addr:district": "士林區",
+        "addr:housenumber": "27",
+        "addr:postcode": "111",
+        "addr:street": "小西街",
+        "amenity": "bar",
+        "name": "the star",
+        "toilets": "yes",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5232674,
+          25.0896978
+        ]
+      },
+      "id": "node/6074055673"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6137457603",
+        "addr:city": "台北市",
+        "addr:country": "TW",
+        "addr:district": "松山區",
+        "addr:full": "台北市松山區興安街200號",
+        "addr:housenumber": "200",
+        "addr:street": "興安街",
+        "amenity": "bar",
+        "name": "派對走掉酒品信用合作社",
+        "name:en": "Party Exit",
+        "name:zh": "派對走掉酒品信用合作社",
+        "opening_hours": "Mo-Su 16:30-23:00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5454752,
+          25.0559995
+        ]
+      },
+      "id": "node/6137457603"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6176129086",
+        "amenity": "bar",
+        "name:en": "The Local Taipei"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5462921,
+          25.024989
+        ]
+      },
+      "id": "node/6176129086"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6183143002",
+        "amenity": "bar",
+        "name": "33區快炒"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5275622,
+          25.0485762
+        ]
+      },
+      "id": "node/6183143002"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6213854890",
+        "addr:city": "臺北市",
+        "addr:country": "TW",
+        "addr:district": "大安區",
+        "addr:housenumber": "263",
+        "addr:postcode": "106",
+        "addr:street": "基隆路二段",
+        "amenity": "bar",
+        "name": "馬路酒場串燒居食",
+        "name:ja": "馬路酒場まるや"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5503406,
+          25.0221688
+        ]
+      },
+      "id": "node/6213854890"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6271118872",
+        "amenity": "bar",
+        "name": "曉 akatsuki"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5238658,
+          25.0505015
+        ]
+      },
+      "id": "node/6271118872"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6278511286",
+        "addr:city": "台北市",
+        "addr:country": "TW",
+        "addr:district": "信義區",
+        "addr:housenumber": "8",
+        "addr:postcode": "110",
+        "addr:street": "永吉路",
+        "amenity": "bar",
+        "name": "啤痞微型精釀啤酒吧",
+        "name:en": "BeerGeek MicroPub",
+        "name:zh": "啤痞微型精釀啤酒吧"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.567826,
+          25.0455679
+        ]
+      },
+      "id": "node/6278511286"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6354698724",
+        "amenity": "bar",
+        "name": "百欣"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5434915,
+          25.0420111
+        ]
+      },
+      "id": "node/6354698724"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6354698725",
+        "amenity": "bar",
+        "name": "名亨"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5435428,
+          25.0420084
+        ]
+      },
+      "id": "node/6354698725"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6387071088",
+        "amenity": "pub",
+        "name": "GB鮮釀餐廳",
+        "name:de": "Gordon Biersch",
+        "name:en": "Gordon Biersch",
+        "name:zh": "GB鮮釀餐廳",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5483348,
+          25.0533904
+        ]
+      },
+      "id": "node/6387071088"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6418121439",
+        "amenity": "bar",
+        "changing_table": "no",
+        "level": "0",
+        "name": "櫻木匠",
+        "outdoor_seating": "yes",
+        "smoking": "yes",
+        "toilets": "no",
+        "wheelchair": "limited"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5287628,
+          25.0112981
+        ]
+      },
+      "id": "node/6418121439"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6469570185",
+        "amenity": "bar",
+        "name:en": "A-one Cafe & Bistro"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5059396,
+          25.0441586
+        ]
+      },
+      "id": "node/6469570185"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6500400794",
+        "addr:city": "新北市",
+        "addr:country": "TW",
+        "addr:district": "五股區",
+        "addr:floor": "1",
+        "addr:housenumber": "66",
+        "addr:street": "五工路",
+        "amenity": "bar",
+        "email": "teddy.lin@lebledor.com",
+        "name": "BEERSCOVERY精釀啤酒探索館"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.4590032,
+          25.0640315
+        ]
+      },
+      "id": "node/6500400794"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6514444054",
+        "addr:city": "臺北市",
+        "addr:country": "TW",
+        "addr:district": "中正區",
+        "addr:floor": "1",
+        "addr:housenumber": "6-9",
+        "addr:postcode": "100",
+        "addr:street": "新生南路一段",
+        "amenity": "bar",
+        "brewery": "yes",
+        "email": "beertogotaipei@gmail.com",
+        "name": "啤酒土狗",
+        "name:en": "Beer to Go",
+        "name:zh": "啤酒土狗",
+        "outdoor_seating": "yes",
+        "phone": "+886 2 3322 3022"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5325669,
+          25.0437962
+        ]
+      },
+      "id": "node/6514444054"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6574020158",
+        "addr:city": "台北市",
+        "addr:country": "TW",
+        "addr:district": "大同區",
+        "addr:floor": "1",
+        "addr:housenumber": "35",
+        "addr:postcode": "103",
+        "addr:street": "赤峰街",
+        "air_conditioning": "yes",
+        "amenity": "bar",
+        "brewery": "yes",
+        "name": "采。時代 義式冰淇淋",
+        "name:en": "ZEIT X LINCK Gelato",
+        "name:zh": "采。時代 義式冰淇淋",
+        "outdoor_seating": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5195203,
+          25.0544893
+        ]
+      },
+      "id": "node/6574020158"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6618376316",
+        "addr:city": "台北市",
+        "addr:country": "TW",
+        "addr:district": "中山區",
+        "addr:housenumber": "24",
+        "addr:postcode": "104",
+        "addr:street": "建國北路二段",
+        "amenity": "bar"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5364158,
+          25.0530395
+        ]
+      },
+      "id": "node/6618376316"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6682102618",
+        "addr:city": "台北市",
+        "addr:country": "TW",
+        "addr:district": "中山區",
+        "addr:housenumber": "78",
+        "addr:postcode": "104",
+        "addr:street": "長安東路二段",
+        "amenity": "bar",
+        "name": "LOTUS Bar"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5341198,
+          25.0482453
+        ]
+      },
+      "id": "node/6682102618"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6682287319",
+        "amenity": "bar",
+        "name": "Preussen"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.517122,
+          25.0524873
+        ]
+      },
+      "id": "node/6682287319"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6703689885",
+        "amenity": "bar",
+        "internet_access": "wlan",
+        "name": "Ron Xinyi"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5589524,
+          25.0322764
+        ]
+      },
+      "id": "node/6703689885"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6704002287",
+        "amenity": "bar",
+        "name": "Highballer’s Bar"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5258951,
+          25.0581572
+        ]
+      },
+      "id": "node/6704002287"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6860028785",
+        "amenity": "bar",
+        "name:en": "A Cup of Coffee hand drip"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5266927,
+          25.0929449
+        ]
+      },
+      "id": "node/6860028785"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6874246485",
+        "amenity": "bar",
+        "name:en": "Black wind bar"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5478179,
+          25.0447103
+        ]
+      },
+      "id": "node/6874246485"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6874269785",
+        "amenity": "bar",
+        "name": "Fancy Hip Tiger Bar",
+        "name:en": "Landmark taproom"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5665557,
+          25.0402546
+        ]
+      },
+      "id": "node/6874269785"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6886599779",
+        "addr:city": "臺北市",
+        "addr:country": "TW",
+        "addr:district": "中正區",
+        "addr:full": "臺北市中正區開封街一段5號",
+        "addr:housenumber": "5",
+        "addr:postcode": "100",
+        "addr:street": "開封街一段",
+        "amenity": "bar",
+        "disused:name": "大坤水果店",
+        "disused:opening_hours": "Mo-Su 9:00-20:30",
+        "disused:shop": "greengrocer",
+        "name": "Twoshots"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5140194,
+          25.0460772
+        ]
+      },
+      "id": "node/6886599779"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6886599781",
+        "amenity": "bar",
+        "name": "Picador Sports Bar"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5684381,
+          25.0863385
+        ]
+      },
+      "id": "node/6886599781"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6937450487",
+        "addr:city": "臺北市",
+        "addr:country": "TW",
+        "addr:district": "松山區",
+        "addr:housenumber": "105",
+        "addr:street": "南京東路四段",
+        "amenity": "bar",
+        "name:en": "Cellar Scotch Bar"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5501648,
+          25.0519122
+        ]
+      },
+      "id": "node/6937450487"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6982059014",
+        "amenity": "bar",
+        "name": "Everything’s gonna be",
+        "name:en": "Everything’s gonna be",
+        "name:zh": "Everything’s gonna be"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.530987,
+          25.0462394
+        ]
+      },
+      "id": "node/6982059014"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7012050308",
+        "amenity": "pub",
+        "name": "掌門精饟",
+        "name:en": "Zhangmen Craft Beer",
+        "name:zh": "掌門精饟"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5448095,
+          25.045979
+        ]
+      },
+      "id": "node/7012050308"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7022030537",
+        "amenity": "bar",
+        "name": "Stone Express Bar"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5503633,
+          25.027928
+        ]
+      },
+      "id": "node/7022030537"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7040009287",
+        "amenity": "bar",
+        "name:de": "SUNMAI",
+        "name:en": "SUNMAI",
+        "opening_hours": "Mo-Th 16:00-00:00; Fr-Sa 16:00-01:00; Su 14:00-22:00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5513602,
+          25.0383067
+        ]
+      },
+      "id": "node/7040009287"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7082816333",
+        "amenity": "bar",
+        "name": "鈴洛奇 調飲餐食",
+        "name:en": "LiNG Lok-Ki Drinks",
+        "name:zh": "鈴洛奇 調飲餐食"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5091968,
+          24.9927266
+        ]
+      },
+      "id": "node/7082816333"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7093253847",
+        "addr:city": "臺北市",
+        "addr:country": "TW",
+        "addr:district": "萬華區",
+        "addr:full": "10841臺北市萬華區開封街二段6號",
+        "addr:housenumber": "6",
+        "addr:postcode": "10841",
+        "addr:street": "開封街二段",
+        "amenity": "bar",
+        "name": "Piu! Piu! Pizza mafia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5088823,
+          25.0460401
+        ]
+      },
+      "id": "node/7093253847"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7111226205",
+        "addr:city": "臺北市",
+        "addr:country": "TW",
+        "addr:district": "內湖區",
+        "addr:housenumber": "180號",
+        "addr:place": "金龍路",
+        "addr:postcode": "11455",
+        "amenity": "bar",
+        "name": "隧道音樂主題餐廳"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5883293,
+          25.0866316
+        ]
+      },
+      "id": "node/7111226205"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7114067441",
+        "addr:city": "臺北市",
+        "addr:country": "TW",
+        "addr:district": "中山區",
+        "addr:floor": "B1",
+        "addr:full": "台北市長安東路一段23號B1",
+        "addr:housenumber": "23",
+        "addr:postcode": "104",
+        "addr:street": "長安東路一段",
+        "amenity": "pub",
+        "description": "制服店",
+        "name": "鴻海酒店"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5236512,
+          25.0495368
+        ]
+      },
+      "id": "node/7114067441"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7213007940",
+        "amenity": "bar",
+        "name": "ANTOICO FORBI"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5396459,
+          25.0266873
+        ]
+      },
+      "id": "node/7213007940"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7282087890",
+        "addr:street": "承德路一段24巷",
+        "amenity": "bar",
+        "name": "Bitter Burro, take the bitter with the sweet"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5166561,
+          25.0504686
+        ]
+      },
+      "id": "node/7282087890"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7716975384",
+        "amenity": "bar",
+        "name": "Chillax beer bar"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5761115,
+          25.080403
+        ]
+      },
+      "id": "node/7716975384"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7731649028",
+        "amenity": "bar",
+        "name": "歡飲宴"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5413099,
+          25.0545471
+        ]
+      },
+      "id": "node/7731649028"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7768973646",
+        "amenity": "bar",
+        "name": "Oldie Goodie Live Bar"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5276986,
+          25.021409
+        ]
+      },
+      "id": "node/7768973646"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7881321079",
+        "amenity": "bar",
+        "name": "台北酒驛"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5599381,
+          25.051722
+        ]
+      },
+      "id": "node/7881321079"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8146135255",
+        "addr:city": "新北市",
+        "addr:country": "TW",
+        "addr:district": "板橋區",
+        "addr:floor": "12",
+        "addr:housenumber": "67",
+        "addr:street": "府中路",
+        "amenity": "bar",
+        "name": "ABV閣樓餐酒館",
+        "name:en": "ABV Bar & Kitchen Penthouse",
+        "name:zh": "ABV閣樓餐酒館"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.4579774,
+          25.0092829
+        ]
+      },
+      "id": "node/8146135255"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8146173955",
+        "addr:city": "臺北市",
+        "addr:city:en": "Taipei City",
+        "addr:country": "TW",
+        "addr:district": "大安區",
+        "addr:housenumber": "34",
+        "addr:street": "仁愛路四段27巷",
+        "amenity": "bar",
+        "branch": "大安",
+        "branch:en": "Daan",
+        "name": "啜飲室",
+        "name:en": "Taihu Craft Beer Tasting Room",
+        "name:zh": "啜飲室"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5450817,
+          25.0410841
+        ]
+      },
+      "id": "node/8146173955"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8146290773",
+        "addr:city": "臺北市",
+        "addr:city:en": "Taipei City",
+        "addr:country": "TW",
+        "addr:district": "松山區",
+        "addr:district:en": "Songshan",
+        "addr:housenumber": "218",
+        "addr:street": "敦化北路",
+        "amenity": "bar",
+        "name": "貓下去敦北俱樂部&俱樂部男孩沙龍",
+        "name:en": "Meowvelous Taipei Taipei Fan Club & Club Boy Saloon",
+        "name:zh": "貓下去敦北俱樂部&俱樂部男孩沙龍"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5488783,
+          25.0586414
+        ]
+      },
+      "id": "node/8146290773"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8187564830",
+        "addr:city": "臺北市",
+        "addr:country": "TW",
+        "addr:district": "中山區",
+        "addr:full": "104臺北市中山區興安街103號",
+        "addr:housenumber": "103",
+        "addr:postcode": "104",
+        "addr:street": "興安街",
+        "amenity": "bar",
+        "contact:facebook": "https://www.facebook.com/FuMuTaipei/",
+        "email": "info@fumutaipei.com",
+        "name": "父母",
+        "name:en": "FuMu",
+        "name:nan": "Hū-bú",
+        "name:zh": "父母",
+        "phone": "+886 2 2518 5660",
+        "website": "https://www.fumutaipei.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5436994,
+          25.0561643
+        ]
+      },
+      "id": "node/8187564830"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8330599839",
+        "amenity": "pub",
+        "name": "謙粹居酒屋"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5415035,
+          25.0500646
+        ]
+      },
+      "id": "node/8330599839"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8345313654",
+        "amenity": "bar",
+        "name": "Bar 小谷"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.522312,
+          25.0498499
+        ]
+      },
+      "id": "node/8345313654"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8381353686",
+        "addr:city": "臺北市",
+        "addr:country": "TW",
+        "addr:district": "中正區",
+        "addr:floor": "2",
+        "addr:full": "10046臺北市中正區漢口街一段4號",
+        "addr:housenumber": "4",
+        "addr:postcode": "10046",
+        "addr:street": "漢口街一段",
+        "amenity": "bar",
+        "name": "艾澤拉斯bar"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5147233,
+          25.0450475
+        ]
+      },
+      "id": "node/8381353686"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8381353694",
+        "amenity": "bar",
+        "name": "LA TOUR BEAR"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5100186,
+          25.0446458
+        ]
+      },
+      "id": "node/8381353694"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8486058358",
+        "amenity": "bar"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.525058,
+          25.1191441
+        ]
+      },
+      "id": "node/8486058358"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8508852017",
+        "amenity": "pub",
+        "name": "大上海三溫暖"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5121222,
+          25.0444876
+        ]
+      },
+      "id": "node/8508852017"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8843386706",
+        "addr:city": "臺北市",
+        "addr:country": "TW",
+        "addr:district": "萬華區",
+        "addr:floor": "2",
+        "addr:housenumber": "191",
+        "addr:postcode": "108",
+        "addr:street": "西寧南路",
+        "air_conditioning": "yes",
+        "amenity": "bar",
+        "lgbtq": "primary",
+        "name": "Play ba",
+        "opening_hours": "Tu-Su 20:00-02:00",
+        "outdoor_seating": "no",
+        "payment:cash": "yes",
+        "payment:coins": "yes",
+        "smoking": "isolated"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.506083,
+          25.041401
+        ]
+      },
+      "id": "node/8843386706"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8862063763",
+        "addr:city": "臺北市",
+        "addr:country": "TW",
+        "addr:district": "中山區",
+        "addr:full": "臺北市八德路二段191號",
+        "addr:housenumber": "191",
+        "addr:street": "八德路二段",
+        "amenity": "bar",
+        "name": "密室191 Bar"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5388572,
+          25.0465659
+        ]
+      },
+      "id": "node/8862063763"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9258884042",
+        "addr:floor": "1",
+        "amenity": "bar",
+        "name": "小器梅酒屋"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5193871,
+          25.0541291
+        ]
+      },
+      "id": "node/9258884042"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9260636607",
+        "amenity": "bar",
+        "name": "享 鍋酒館"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.522579,
+          25.0571276
+        ]
+      },
+      "id": "node/9260636607"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9375541248",
+        "addr:city": "臺北市",
+        "addr:country": "TW",
+        "addr:district": "大同區",
+        "addr:floor": "1",
+        "addr:housenumber": "1;1-1;1-2",
+        "addr:street": "萬全街",
+        "amenity": "bar",
+        "name": "友士 酒之庭",
+        "name:en": "Usw Sake Garden",
+        "name:zh": "友士 酒之庭",
+        "opening_hours": "PH,Mo-Su 11:00-22:00",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5203777,
+          25.0587563
+        ]
+      },
+      "id": "node/9375541248"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9375579544",
+        "addr:floor": "1",
+        "amenity": "bar"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.518429,
+          25.0581786
+        ]
+      },
+      "id": "node/9375579544"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9497174640",
+        "amenity": "pub",
+        "name": "愛微醺餐酒館",
+        "name:en": "I-tipsy",
+        "name:zh": "愛微醺餐酒館",
+        "name:zh-Hant": "愛微醺餐酒館"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.4181329,
+          25.0267723
+        ]
+      },
+      "id": "node/9497174640"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9527718510",
+        "amenity": "bar",
+        "name": "Sakebono"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.4989883,
+          25.0351144
+        ]
+      },
+      "id": "node/9527718510"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9657892176",
+        "addr:city": "臺北市",
+        "addr:country": "TW",
+        "addr:district": "中山區",
+        "addr:floor": "1",
+        "addr:housenumber": "68",
+        "addr:street": "民權東路三段",
+        "amenity": "bar",
+        "name": "Voice Long Play",
+        "opening_hours": "Mo-Sa 17:30-00:30"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5427612,
+          25.0621512
+        ]
+      },
+      "id": "node/9657892176"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9725096947",
+        "amenity": "bar",
+        "name": "OFFY Cafe' Bistro"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.476852,
+          25.0310558
+        ]
+      },
+      "id": "node/9725096947"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9774005430",
+        "amenity": "bar",
+        "name": "福將清茶館"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.4988247,
+          25.0395476
+        ]
+      },
+      "id": "node/9774005430"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9774005431",
+        "amenity": "bar",
+        "name": "天王座卡拉OK"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.4989515,
+          25.0394418
+        ]
+      },
+      "id": "node/9774005431"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9774005433",
+        "amenity": "bar",
+        "name": "富儷會館"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.4992233,
+          25.0394028
+        ]
+      },
+      "id": "node/9774005433"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10037504977",
+        "amenity": "bar",
+        "name": "LJ1991餐酒吧"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.490652,
+          25.0534951
+        ]
+      },
+      "id": "node/10037504977"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10080204915",
+        "addr:city": "台北市",
+        "addr:country": "TW",
+        "addr:district": "中山區",
+        "addr:housenumber": "18",
+        "addr:street": "林森北路159巷",
+        "amenity": "bar",
+        "name": "kunumi"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5259338,
+          25.0515809
+        ]
+      },
+      "id": "node/10080204915"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10080204916",
+        "addr:city": "台北市",
+        "addr:country": "TW",
+        "addr:district": "中山區",
+        "addr:housenumber": "20",
+        "addr:street": "林森北路159巷",
+        "amenity": "bar",
+        "name": "La Bamba"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5259882,
+          25.0515695
+        ]
+      },
+      "id": "node/10080204916"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10080205717",
+        "addr:city": "台北市",
+        "addr:country": "TW",
+        "addr:district": "中山區",
+        "addr:housenumber": "24",
+        "addr:street": "林森北路159巷",
+        "amenity": "bar",
+        "name": "Lavader"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5260551,
+          25.0515449
+        ]
+      },
+      "id": "node/10080205717"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10080205718",
+        "addr:city": "台北市",
+        "addr:country": "TW",
+        "addr:district": "中山區",
+        "addr:housenumber": "26",
+        "addr:street": "林森北路159巷",
+        "amenity": "bar",
+        "name": "Maya"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5261157,
+          25.0515392
+        ]
+      },
+      "id": "node/10080205718"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10080205719",
+        "addr:city": "台北市",
+        "addr:country": "TW",
+        "addr:district": "中山區",
+        "addr:housenumber": "26",
+        "addr:street": "林森北路159巷",
+        "amenity": "bar",
+        "name": "綜合"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5261847,
+          25.051524
+        ]
+      },
+      "id": "node/10080205719"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10080205721",
+        "addr:city": "台北市",
+        "addr:country": "TW",
+        "addr:district": "中山區",
+        "addr:housenumber": "32",
+        "addr:street": "林森北路159巷",
+        "amenity": "bar",
+        "name": "花椿"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5263164,
+          25.0514843
+        ]
+      },
+      "id": "node/10080205721"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10080205723",
+        "addr:city": "台北市",
+        "addr:country": "TW",
+        "addr:district": "中山區",
+        "addr:street": "林森北路159巷",
+        "amenity": "bar",
+        "name": "Shamu Neko"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5265526,
+          25.0514294
+        ]
+      },
+      "id": "node/10080205723"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10080205724",
+        "addr:city": "台北市",
+        "addr:country": "TW",
+        "addr:district": "中山區",
+        "addr:street": "林森北路159巷",
+        "amenity": "bar",
+        "name": "cinbamon"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5266257,
+          25.0514047
+        ]
+      },
+      "id": "node/10080205724"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10080205727",
+        "addr:city": "台北市",
+        "addr:country": "TW",
+        "addr:district": "中山區",
+        "addr:housenumber": "12",
+        "addr:street": "林森北路159巷",
+        "amenity": "bar",
+        "name": "酒魅鑞"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5257123,
+          25.0516452
+        ]
+      },
+      "id": "node/10080205727"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10080205728",
+        "addr:city": "台北市",
+        "addr:country": "TW",
+        "addr:district": "中山區",
+        "addr:housenumber": "8",
+        "addr:street": "林森北路159巷",
+        "amenity": "bar",
+        "name": "Déjà vu"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5256286,
+          25.0516661
+        ]
+      },
+      "id": "node/10080205728"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10226914045",
+        "amenity": "bar",
+        "name": "銀波 Silver Lining"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5504636,
+          25.0248844
+        ]
+      },
+      "id": "node/10226914045"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10255244173",
+        "amenity": "bar",
+        "lgbtq": "primary",
+        "name": "享自由餐酒館",
+        "opening_hours": "Tu-Su 18:00-02:00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.6601101,
+          25.0674398
+        ]
+      },
+      "id": "node/10255244173"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10261652420",
+        "amenity": "bar",
+        "name": "梨渦"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5932437,
+          25.0844011
+        ]
+      },
+      "id": "node/10261652420"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10682946169",
+        "amenity": "bar",
+        "name": "去憂餐酒館"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5654105,
+          25.0416223
+        ]
+      },
+      "id": "node/10682946169"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10687363053",
+        "amenity": "bar",
+        "name": "BN Inn 酒坊"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5492944,
+          25.045367
+        ]
+      },
+      "id": "node/10687363053"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10718421238",
+        "amenity": "bar",
+        "name": "Continue? Gaming Bar"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5331589,
+          25.0462011
+        ]
+      },
+      "id": "node/10718421238"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10740725005",
+        "addr:city": "臺北市",
+        "addr:country": "TW",
+        "addr:district": "中山區",
+        "addr:floor": "20",
+        "addr:housenumber": "199",
+        "addr:postcode": "10462",
+        "addr:street": "樂群二路",
+        "amenity": "bar",
+        "name": "INGE'S Bar & Grill 台北萬豪酒店"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5595804,
+          25.0804147
+        ]
+      },
+      "id": "node/10740725005"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11215628861",
+        "addr:city": "臺北市",
+        "addr:country": "TW",
+        "addr:district": "大同區",
+        "addr:full": "103005臺北市大同區延平北路二段4號",
+        "addr:housenumber": "4",
+        "addr:postcode": "103005",
+        "addr:street": "延平北路二段",
+        "amenity": "bar",
+        "name": "吉姆老爹",
+        "name:en": "Jim & Dad's",
+        "name:zh": "吉姆老爹"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5116739,
+          25.0540609
+        ]
+      },
+      "id": "node/11215628861"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11254253986",
+        "amenity": "bar",
+        "name": "參號五金行"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5179716,
+          25.0554766
+        ]
+      },
+      "id": "node/11254253986"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11254902037",
+        "amenity": "bar",
+        "name": "F Gallery by A Train"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5455749,
+          25.0516315
+        ]
+      },
+      "id": "node/11254902037"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11271183163",
+        "addr:city": "臺北市",
+        "addr:country": "TW",
+        "addr:district": "信義區",
+        "addr:floor": "1, B1",
+        "addr:housenumber": "182",
+        "addr:postcode": "11070",
+        "addr:street": "基隆路一段",
+        "amenity": "bar",
+        "contact:facebook": "https://www.facebook.com/YINTlounge",
+        "indoor_seating": "yes",
+        "name": "言吧 Yesterday Is Not Today",
+        "opening_hours": "Sun,Tue-Thu 19:00-0:00 / Fri,Sat 19:00-02:00",
+        "website": "bit.ly/yintbar"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5648034,
+          25.0422476
+        ]
+      },
+      "id": "node/11271183163"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11294010650",
+        "addr:city": "臺北市",
+        "addr:country": "TW",
+        "addr:district": "大安區",
+        "addr:housenumber": "330",
+        "addr:street": "光復南路",
+        "addr:street:en": "Guangfu South Road",
+        "amenity": "bar",
+        "contact:facebook": "https://www.facebook.com/mmocraftbeer",
+        "name": "MMO Craft Beer",
+        "opening_hours": "Mo, We, Th, Su 16:00-00:00; Fr, Sa 16:00-01:00",
+        "phone": "+886-2-2776-6360"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5568918,
+          25.0384771
+        ]
+      },
+      "id": "node/11294010650"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11294016887",
+        "addr:city": "臺北市",
+        "addr:country": "TW",
+        "addr:district": "中山區",
+        "addr:housenumber": "8",
+        "addr:street": "長安西路",
+        "addr:street:en": "Chang An West Road",
+        "amenity": "bar",
+        "contact:facebook": "https://www.facebook.com/BeerCatTaipei/",
+        "name": "BeerCat",
+        "phone": "+886 2 2558 1518"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.52114,
+          25.0498478
+        ]
+      },
+      "id": "node/11294016887"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11294026824",
+        "addr:city": "臺北市",
+        "addr:country": "TW",
+        "addr:district": "大安區",
+        "addr:housenumber": "322",
+        "addr:street": "光復南路",
+        "addr:street:en": "Guangfu South Road",
+        "amenity": "bar",
+        "name": "Far Yeast Craftbeer",
+        "opening_hours": "Mo-Su 15:30-00:00",
+        "phone": "+886-2-2776-2877",
+        "website": "https://faryeast.com/en/bar/taiwan-craftbeer-gastropub/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.55678,
+          25.0386337
+        ]
+      },
+      "id": "node/11294026824"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11294029206",
+        "addr:city": "臺北市",
+        "addr:country": "TW",
+        "addr:district": "松山區",
+        "addr:housenumber": "136",
+        "addr:street": "饒河街",
+        "addr:street:en": "Raohe Street",
+        "amenity": "bar",
+        "name": "Time Beer",
+        "opening_hours": "Mo-Su 16:30-23:30"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5751672,
+          25.0503934
+        ]
+      },
+      "id": "node/11294029206"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11294039991",
+        "addr:city": "臺北市",
+        "addr:country": "TW",
+        "addr:district": "中山區",
+        "addr:housenumber": "1",
+        "addr:street": "玉門街",
+        "addr:street:en": "Yumen Street",
+        "amenity": "bar",
+        "name": "Crafted",
+        "opening_hours": "Tu-Fr 16:00-23:30; Sa 12:00-23:30; Su 12:00-21:30",
+        "phone": "+886-2-2598-7415",
+        "website": "https://crafted.tw/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5219862,
+          25.0695991
+        ]
+      },
+      "id": "node/11294039991"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11299185770",
+        "amenity": "bar",
+        "name": "Chance Bar",
+        "outdoor_seating": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5067223,
+          25.043127
+        ]
+      },
+      "id": "node/11299185770"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11309203723",
+        "amenity": "bar",
+        "name": "The Malt"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5414393,
+          25.0430464
+        ]
+      },
+      "id": "node/11309203723"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11311415373",
+        "amenity": "bar",
+        "name": "Sipsip",
+        "opening_hours": "Su-Th 12:00-22:00; Fr-Sa 12:00-01:30",
+        "url": "https://instagram.com/sipsip.tw"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.529164,
+          25.044798
+        ]
+      },
+      "id": "node/11311415373"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11494590470",
+        "amenity": "bar",
+        "name:en": "O'Time"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5230815,
+          25.0507154
+        ]
+      },
+      "id": "node/11494590470"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11494598369",
+        "amenity": "bar"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5254369,
+          25.050663
+        ]
+      },
+      "id": "node/11494598369"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11494598469",
+        "amenity": "bar",
+        "check_date": "2024-08-17",
+        "min_age": "18",
+        "name": "Live Music.Jazz bar",
+        "name:en": "Live Music, Jazz Bar",
+        "name:zh-Hant-TW": "飛喬餐坊"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5236565,
+          25.0505563
+        ]
+      },
+      "id": "node/11494598469"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11494598470",
+        "amenity": "bar",
+        "name:en": "Bar Vintage"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5258011,
+          25.0500576
+        ]
+      },
+      "id": "node/11494598470"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11494598569",
+        "amenity": "bar",
+        "name:en": "Sugar Bar"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5258897,
+          25.050028
+        ]
+      },
+      "id": "node/11494598569"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11503478665",
+        "amenity": "bar",
+        "name": "小店"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.4718564,
+          25.0276291
+        ]
+      },
+      "id": "node/11503478665"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11510559039",
+        "amenity": "bar",
+        "name": "9% 酒趴串燒"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.47283,
+          25.0308347
+        ]
+      },
+      "id": "node/11510559039"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11559675944",
+        "addr:city": "臺北市",
+        "addr:country": "TW",
+        "addr:district": "中正區",
+        "addr:floor": "3",
+        "addr:full": "100005臺北市中正區中華路一段29之1號3樓",
+        "addr:housenumber": "29-1",
+        "addr:postcode": "100005",
+        "addr:street": "中華路一段",
+        "amenity": "bar",
+        "name": "二丁目",
+        "name:zh": "二丁目"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5097299,
+          25.0457671
+        ]
+      },
+      "id": "node/11559675944"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11873796943",
+        "amenity": "pub",
+        "name": "96會館"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5313849,
+          25.0515091
+        ]
+      },
+      "id": "node/11873796943"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11981499267",
+        "amenity": "bar",
+        "name": "45 Old Bar & Coffee Pub"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5354365,
+          25.0133657
+        ]
+      },
+      "id": "node/11981499267"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11983086066",
+        "amenity": "bar",
+        "name": "酒聚"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5053035,
+          24.9942569
+        ]
+      },
+      "id": "node/11983086066"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12091725966",
+        "amenity": "bar",
+        "check_date": "2024-08-04",
+        "level": "0",
+        "name": "BAR ECHO",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5231059,
+          25.0516497
+        ]
+      },
+      "id": "node/12091725966"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12091758990",
+        "amenity": "pub",
+        "check_date": "2024-08-04",
+        "level": "0",
+        "name": "萬次郎居酒屋",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5243855,
+          25.0512583
+        ]
+      },
+      "id": "node/12091758990"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12142984490",
+        "addr:city": "臺北市",
+        "addr:country": "TW",
+        "addr:district": "大安區",
+        "addr:floor": "1",
+        "addr:housenumber": "2",
+        "addr:street": "敦化南路一段161巷69弄",
+        "amenity": "bar",
+        "contact:facebook": "https://www.facebook.com/thecolorshishasalon/",
+        "contact:instagram": "https://www.instagram.com/thecolor_shishasalon",
+        "name": "The Color Shisha Bar",
+        "opening_hours": "Su-Th 18:00-02:00; Fr-Sa 18:00-03:00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5523696,
+          25.0437255
+        ]
+      },
+      "id": "node/12142984490"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12210044392",
+        "addr:city": "臺北市",
+        "addr:country": "TW",
+        "addr:district": "大安區",
+        "addr:floor": "4",
+        "addr:full": "106臺北市大安區通化里2鄰文昌街275號四樓",
+        "addr:hamlet": "通化里",
+        "addr:housenumber": "275",
+        "addr:neighbourhood": "2",
+        "addr:postcode": "106",
+        "addr:street": "文昌街",
+        "amenity": "bar",
+        "level": "1",
+        "name": "Sidebar",
+        "opening_hours": "Su-Th 18:00-01:00; Fr-Sa 18:00-02:00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5560818,
+          25.0323305
+        ]
+      },
+      "id": "node/12210044392"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12297186986",
+        "amenity": "bar",
+        "name": "HANKO 60 如醉如夢"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5052298,
+          25.0459119
+        ]
+      },
+      "id": "node/12297186986"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12419468101",
+        "addr:city": "臺北市",
+        "addr:country": "TW",
+        "addr:district": "松山區",
+        "addr:housenumber": "8",
+        "addr:postcode": "105",
+        "addr:street": "南京東路五段",
+        "amenity": "bar",
+        "level": "2",
+        "name": "一千零一夜",
+        "name:en": "1001 Nights Taipei",
+        "opening_hours": "Fr-Sa 21:00-06:00; Su, We-Th 21:00-04:00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5626769,
+          25.0512583
+        ]
+      },
+      "id": "node/12419468101"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12446877955",
+        "amenity": "bar",
+        "name": "CINE Teppan bistro"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5082248,
+          25.0443418
+        ]
+      },
+      "id": "node/12446877955"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12475356604",
+        "addr:city": "臺北市",
+        "addr:country": "TW",
+        "addr:district": "松山區",
+        "addr:floor": "4",
+        "addr:full": "105臺北市松山區吉祥里18鄰南京東路五段8號四樓",
+        "addr:hamlet": "吉祥里",
+        "addr:housenumber": "8",
+        "addr:neighbourhood": "18",
+        "addr:postcode": "105",
+        "addr:street": "南京東路五段",
+        "amenity": "bar",
+        "name": "一千零一夜",
+        "name:en": "1001 Nights Taipei",
+        "opening_hours": "Fr-Sa 21:00-06:00; Su, We-Th 21:00-04:00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5583134,
+          25.0512365
+        ]
+      },
+      "id": "node/12475356604"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12517900419",
+        "amenity": "bar",
+        "name": "OriginBAR 源"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5563077,
+          25.0521192
+        ]
+      },
+      "id": "node/12517900419"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12518328455",
+        "addr:city": "臺北市",
+        "addr:country": "TW",
+        "addr:district": "大安區",
+        "addr:housenumber": "24",
+        "addr:street": "No. 24號, Section 2, Anhe Rd, Da’an District, Taipei City, Ταϊβάν 106",
+        "amenity": "bar",
+        "name": "Old Brick"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5522591,
+          25.0319853
+        ]
+      },
+      "id": "node/12518328455"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12521906301",
+        "addr:city": "臺北市",
+        "addr:country": "TW",
+        "addr:district": "中山區",
+        "addr:housenumber": "2",
+        "addr:postcode": "104",
+        "addr:street": "農安街125巷",
+        "addr:unit": "2",
+        "amenity": "bar",
+        "name": "NOMOU SAKEBAR 飲もう日本酒吧",
+        "opening_hours": "Mo-Su 17:00-00:00",
+        "phone": "+886 2 2597 8790"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5270675,
+          25.0644917
+        ]
+      },
+      "id": "node/12521906301"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12643644161",
+        "amenity": "bar",
+        "check_date": "2025-03-05",
+        "name": "Banker Martini bar"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5523277,
+          25.036556
+        ]
+      },
+      "id": "node/12643644161"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12662973801",
+        "amenity": "bar",
+        "name": "發琴吧",
+        "name:en": "Ginspiration"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5098984,
+          25.0557875
+        ]
+      },
+      "id": "node/12662973801"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12745981606",
+        "addr:city": "臺北市",
+        "addr:district": "信義區",
+        "addr:housenumber": "553",
+        "addr:postcode": "110",
+        "addr:street": "光復南路",
+        "amenity": "bar",
+        "name": "tei by OBOND"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5576169,
+          25.0313423
+        ]
+      },
+      "id": "node/12745981606"
+    }
+  ]
+}
