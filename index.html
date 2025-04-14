@@ -8,6 +8,7 @@
   <!-- Load Leaflet code library: see https://leafletjs.com/download.html -->
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.2/dist/leaflet.css" integrity="sha256-sA+zWATbFveLLNqWO2gtiw3HL/lh1giY/Inf1BJ0z14=" crossorigin="" />
   <script src="https://unpkg.com/leaflet@1.9.2/dist/leaflet.js" integrity="sha256-o9N1jGDZrf5tS+Ft4gbIK7mYMipq9lqpVJ91xHSyKhg=" crossorigin=""></script>
+  <script src="https://unpkg.com/leaflet.heat@0.2.0/dist/leaflet-heat.js"></script>
 
   <!-- Position the map and title with Cascading Style Sheet (CSS) -->
   <style>
@@ -27,11 +28,19 @@
 
   /* Set up the initial map center and zoom level */
   var map = L.map('map', {
-    center: [41.77, -72.69], // EDIT coordinates to re-center map
+    center: [25.105497, 121.597366], // EDIT coordinates to re-center map
     zoom: 12,  // EDIT from 1 (zoomed out) to 18 (zoomed in)
     scrollWheelZoom: false
   });
+var district_boundary = new L.geoJson();
+district_boundary.addTo(map);
 
+async function getGeojson(layerName) {
+  const response = await fetch(`./${layerName}.geojson`);
+  const geojson = await response.json();
+  return geojson;
+}
+const geojsonData = await getGeojson( "bar");
   /* display basemap tiles -- see others at https://leaflet-extras.github.io/leaflet-providers/preview/ */
   L.tileLayer(
     'https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png', {
@@ -40,9 +49,6 @@
         <a href="https://carto.com/attribution">CARTO</a>'
   }).addTo(map);
 
-  /* Display a point marker with pop-up text */
-  L.marker([41.77, -72.69]).addTo(map) // EDIT marker coordinates
-  .bindPopup("Insert pop-up text here"); // EDIT pop-up text message
 
   </script>
 </body>
